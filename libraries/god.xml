@@ -1283,7 +1283,6 @@
 	<!-- ============================================================================================== -->
 	<!--                                         Tides of Avarice                                       -->
 	<!-- ============================================================================================== -->
-	<remove sel="/god/stations/station[@id='s3_station']"/>
 	<remove sel="/god/stations/station[@id='story_prison_station_id']"/>
 	<remove sel="/god/stations/station[@id='monument_s3station']"/>
 	<remove sel="/god/stations/station[@id='pirate_landmark_01']"/>
@@ -1295,7 +1294,6 @@
 	<remove sel="/god/stations/station[@id='loanshark_defence_01']"/>
 	<remove sel="/god/stations/station[@id='loanshark_defence_02']"/>
 	<remove sel="/god/stations/station[@id='loanshark_defence_03']"/>
-	<remove sel="/god/stations/station[@id='wharf_alliance_toa']"/>
 	<remove sel="/god/stations/station[@id='scavenger_shipyard_01']"/>
 	<remove sel="/god/stations/station[@id='scavenger_wharf_01']"/>
 	<remove sel="/god/stations/station[@id='scavenger_defence_01']"/>
@@ -1403,10 +1401,9 @@
 	<!--                                           Cradle of Humanity                                   -->
 	<!-- ============================================================================================== -->
 	<!-- Leave Terran alone since we start there but clear out pioneers -->                       
-	<remove sel="/god/stations/station[@id='pio_science']"/>                                                
+	<remove sel="/god/stations/station[@id='pio_scienceHQ_cluster_113_sector001']"/>                                                
 	<remove sel="/god/stations/station[@id='pio_defence_cluster_113_sector001']"/>                          
 	<remove sel="/god/stations/station[@id='pio_equipmentdock_zone001_cluster_113_sector001']"/>            
-	<remove sel="/god/stations/station[@id='x4ep1_gamestart_scientist_hq']"/>                               
 	<remove sel="/god/stations/station[@id='pio_defence_cluster_114_sector001']"/>                          
 	<remove sel="/god/stations/station[@id='pio_tradestation_cluster_114_sector001']"/>                     
 	<remove sel="/god/stations/station[@id='pio_processing']"/>                                           
@@ -1501,7 +1498,6 @@
 	<remove sel="/god/stations/station[@id='spl_defence_cluster_406_sector001_2']"/>
 	<remove sel="/god/stations/station[@id='spl_defence_cluster_418_sector001']"/>
 	<remove sel="/god/stations/station[@id='spl_defence_cluster_418_sector001_2']"/>
-	<remove sel="/god/stations/station[@id='spl_defence_cluster_418_sector001_3']"/>
 	<remove sel="/god/stations/station[@id='shipyard_freesplit_01']"/>
 	<remove sel="/god/stations/station[@id='wharf_freesplit_01']"/>
 	<remove sel="/god/stations/station[@id='equipmentdock_freesplit_01']"/>
