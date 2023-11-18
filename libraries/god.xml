@@ -1218,6 +1218,30 @@
 				</loadout>
 			</station>
 		</station>
+		<station id="xenpo_defence_cluster_606_sector002" race="xenon" owner="xenon" type="defence">
+			<quotas>
+				<quota galaxy="1" zone="1" />
+			</quotas>
+			<location class="zone" macro="zone001_cluster_606_sector002_macro" matchextension="false" />
+			<station>
+				<select faction="xenon" tags="[defence]" />
+				<loadout>
+					<level exact="1.0" />
+				</loadout>
+			</station>
+		</station>
+		<station id="xenpo_defence_cluster_606_sector003" race="xenon" owner="xenon" type="defence">
+			<quotas>
+				<quota galaxy="1" zone="1" />
+			</quotas>
+			<location class="zone" macro="zone001_cluster_606_sector003_macro" matchextension="false" />
+			<station>
+				<select faction="xenon" tags="[defence]" />
+				<loadout>
+					<level exact="1.0" />
+				</loadout>
+			</station>
+		</station>
 		<station id="xenpo_defence_cluster_607_sector001" race="xenon" owner="xenon" type="defence">
 			<quotas>
 				<quota galaxy="1" zone="1" />
@@ -1299,6 +1323,7 @@
 	<remove sel="/god/stations/station[@id='scavenger_defence_01']"/>
 	<remove sel="/god/stations/station[@id='scavenger_defence_02']"/>
 	<remove sel="/god/stations/station[@id='scavenger_defence_03']"/>
+	<remove sel="/god/stations/station[@id='Story_ScrapyardStation']"/>
 
 	<remove sel="/god/products/product[@id='rip_scrap_tide']"/>
 	<remove sel="/god/products/product[@id='rip_energycells_tide']"/>
@@ -1410,6 +1435,8 @@
 	<remove sel="/god/stations/station[@id='pio_shipyard_cluster_115_sector001']"/>                         
 	<remove sel="/god/stations/station[@id='pio_wharf_cluster_115_sector001']"/>                            
 	<remove sel="/god/stations/station[@id='pio_defence_cluster_115_sector001']"/>
+	<remove sel="/god/stations/station[@id='x4ep1_gamestart_scientist_hq' and @race='terran']"/>
+	<remove sel="/god/stations/station[@id='x4ep1_gamestart_scientist_hq' and @race='argon']"/>
 	
 	<remove sel="/god/products/product[@id='pio_metallicmicrolattice']"/>
 	<remove sel="/god/products/product[@id='pio_computronicsubstrate']"/>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<diff>
+	<!-- Disable ALI Wharf. It's created by the MD not via god.xml -->
+	<remove sel="/mdscript/cues/cue[@name='X4ep1_Prelude_Setup']/cues/cue[@name='ALIWharf_TOA']/actions/create_station"/>
+</diff>
