@@ -1074,6 +1074,154 @@
 	<remove sel="/god/products/product[@id='bor_weaponcomponents']"/>
 	<remove sel="/god/products/product[@id='bor_plankton']"/>
 
+	<!-- Add Xenon defensive station -->
+	<add sel="/god/stations">
+		<station id="xen_defence_cluster_600_sector001" race="xenon" owner="xenon" type="defence">
+			<quotas>
+				<quota galaxy="1" zone="1" />
+			</quotas>
+			<location class="zone" macro="zone001_cluster_600_sector001_macro" matchextension="false" />
+			<station>
+				<select faction="xenon" tags="[defence]" />
+				<loadout>
+					<level exact="1.0" />
+				</loadout>
+			</station>
+		</station>
+		<station id="xen_defence_cluster_601_sector001" race="xenon" owner="xenon" type="defence">
+			<quotas>
+				<quota galaxy="1" zone="1" />
+			</quotas>
+			<location class="zone" macro="zone001_cluster_601_sector001_macro" matchextension="false" />
+			<station>
+				<select faction="xenon" tags="[defence]" />
+				<loadout>
+					<level exact="1.0" />
+				</loadout>
+			</station>
+		</station>
+		<station id="xen_defence_cluster_602_sector001" race="xenon" owner="xenon" type="defence">
+			<quotas>
+				<quota galaxy="1" zone="1" />
+			</quotas>
+			<location class="zone" macro="zone001_cluster_602_sector001_macro" matchextension="false" />
+			<station>
+				<select faction="xenon" tags="[defence]" />
+				<loadout>
+					<level exact="1.0" />
+				</loadout>
+			</station>
+		</station>
+		<station id="xen_defence_cluster_603_sector001" race="xenon" owner="xenon" type="defence">
+			<quotas>
+				<quota galaxy="1" zone="1" />
+			</quotas>
+			<location class="zone" macro="zone001_cluster_603_sector001_macro" matchextension="false" />
+			<station>
+				<select faction="xenon" tags="[defence]" />
+				<loadout>
+					<level exact="1.0" />
+				</loadout>
+			</station>
+		</station>
+		<station id="xen_defence_cluster_604_sector001" race="xenon" owner="xenon" type="defence">
+			<quotas>
+				<quota galaxy="1" zone="1" />
+			</quotas>
+			<location class="zone" macro="zone001_cluster_604_sector001_macro" matchextension="false" />
+			<station>
+				<select faction="xenon" tags="[defence]" />
+				<loadout>
+					<level exact="1.0" />
+				</loadout>
+			</station>
+		</station>
+		<station id="xen_defence_cluster_605_sector001" race="xenon" owner="xenon" type="defence">
+			<quotas>
+				<quota galaxy="1" zone="1" />
+			</quotas>
+			<location class="zone" macro="zone001_cluster_605_sector001_macro" matchextension="false" />
+			<station>
+				<select faction="xenon" tags="[defence]" />
+				<loadout>
+					<level exact="1.0" />
+				</loadout>
+			</station>
+		</station>
+		<station id="xen_defence_cluster_606_sector001" race="xenon" owner="xenon" type="defence">
+			<quotas>
+				<quota galaxy="1" zone="1" />
+			</quotas>
+			<location class="zone" macro="zone001_cluster_606_sector001_macro" matchextension="false" />
+			<station>
+				<select faction="xenon" tags="[defence]" />
+				<loadout>
+					<level exact="1.0" />
+				</loadout>
+			</station>
+		</station>
+		<station id="xen_defence_cluster_607_sector001" race="xenon" owner="xenon" type="defence">
+			<quotas>
+				<quota galaxy="1" zone="1" />
+			</quotas>
+			<location class="zone" macro="zone001_cluster_607_sector001_macro" matchextension="false" />
+			<station>
+				<select faction="xenon" tags="[defence]" />
+				<loadout>
+					<level exact="1.0" />
+				</loadout>
+			</station>
+		</station>
+		<station id="xen_defence_cluster_607_sector002" race="xenon" owner="xenon" type="defence">
+			<quotas>
+				<quota galaxy="1" zone="1" />
+			</quotas>
+			<location class="zone" macro="zone001_cluster_607_sector002_macro" matchextension="false" />
+			<station>
+				<select faction="xenon" tags="[defence]" />
+				<loadout>
+					<level exact="1.0" />
+				</loadout>
+			</station>
+		</station>
+		<station id="xen_defence_cluster_607_sector003" race="xenon" owner="xenon" type="defence">
+			<quotas>
+				<quota galaxy="1" zone="1" />
+			</quotas>
+			<location class="zone" macro="zone001_cluster_607_sector003_macro" matchextension="false" />
+			<station>
+				<select faction="xenon" tags="[defence]" />
+				<loadout>
+					<level exact="1.0" />
+				</loadout>
+			</station>
+		</station>
+		<station id="xen_defence_cluster_608_sector001" race="xenon" owner="xenon" type="defence">
+			<quotas>
+				<quota galaxy="1" zone="1" />
+			</quotas>
+			<location class="zone" macro="zone001_cluster_608_sector001_macro" matchextension="false" />
+			<station>
+				<select faction="xenon" tags="[defence]" />
+				<loadout>
+					<level exact="1.0" />
+				</loadout>
+			</station>
+		</station>
+		<station id="xen_defence_cluster_609_sector001" race="xenon" owner="xenon" type="defence">
+			<quotas>
+				<quota galaxy="1" zone="1" />
+			</quotas>
+			<location class="zone" macro="zone001_cluster_609_sector001_macro" matchextension="false" />
+			<station>
+				<select faction="xenon" tags="[defence]" />
+				<loadout>
+					<level exact="1.0" />
+				</loadout>
+			</station>
+		</station>		
+	</add>
+
 	<!-- ============================================================================================== -->
 	<!--                                         Tides of Avarice                                       -->
 	<!-- ============================================================================================== -->
@@ -1104,6 +1252,94 @@
 	<remove sel="/god/products/product[@id='vig_spices']"/>
 	<remove sel="/god/products/product[@id='vig_water']"/>
 	<remove sel="/god/products/product[@id='vig_wheat']"/>
+
+	<!-- Add Xenon defensive station -->
+	<add sel="/god/stations">
+		<station id="xen_defence_cluster_500_sector001" race="xenon" owner="xenon" type="defence">
+			<quotas>
+				<quota galaxy="1" zone="1" />
+			</quotas>
+			<location class="zone" macro="zone001_cluster_500_sector001_macro" matchextension="false" />
+			<station>
+				<select faction="xenon" tags="[defence]" />
+				<loadout>
+					<level exact="1.0" />
+				</loadout>
+			</station>
+		</station>
+		<station id="xen_defence_cluster_500_sector002" race="xenon" owner="xenon" type="defence">
+			<quotas>
+				<quota galaxy="1" zone="1" />
+			</quotas>
+			<location class="zone" macro="zone001_cluster_500_sector002_macro" matchextension="false" />
+			<station>
+				<select faction="xenon" tags="[defence]" />
+				<loadout>
+					<level exact="1.0" />
+				</loadout>
+			</station>
+		</station>
+		<station id="xen_defence_cluster_500_sector003" race="xenon" owner="xenon" type="defence">
+			<quotas>
+				<quota galaxy="1" zone="1" />
+			</quotas>
+			<location class="zone" macro="zone001_cluster_500_sector003_macro" matchextension="false" />
+			<station>
+				<select faction="xenon" tags="[defence]" />
+				<loadout>
+					<level exact="1.0" />
+				</loadout>
+			</station>
+		</station>
+		<station id="xen_defence_cluster_501_sector001" race="xenon" owner="xenon" type="defence">
+			<quotas>
+				<quota galaxy="1" zone="1" />
+			</quotas>
+			<location class="zone" macro="zone001_cluster_501_sector001_macro" matchextension="false" />
+			<station>
+				<select faction="xenon" tags="[defence]" />
+				<loadout>
+					<level exact="1.0" />
+				</loadout>
+			</station>
+		</station>
+		<station id="xen_defence_cluster_502_sector001" race="xenon" owner="xenon" type="defence">
+			<quotas>
+				<quota galaxy="1" zone="1" />
+			</quotas>
+			<location class="zone" macro="zone001_cluster_502_sector001_macro" matchextension="false" />
+			<station>
+				<select faction="xenon" tags="[defence]" />
+				<loadout>
+					<level exact="1.0" />
+				</loadout>
+			</station>
+		</station>
+		<station id="xen_defence_cluster_503_sector001" race="xenon" owner="xenon" type="defence">
+			<quotas>
+				<quota galaxy="1" zone="1" />
+			</quotas>
+			<location class="zone" macro="zone001_cluster_503_sector001_macro" matchextension="false" />
+			<station>
+				<select faction="xenon" tags="[defence]" />
+				<loadout>
+					<level exact="1.0" />
+				</loadout>
+			</station>
+		</station>
+		<station id="xen_defence_cluster_504_sector001" race="xenon" owner="xenon" type="defence">
+			<quotas>
+				<quota galaxy="1" zone="1" />
+			</quotas>
+			<location class="zone" macro="zone001_cluster_504_sector001_macro" matchextension="false" />
+			<station>
+				<select faction="xenon" tags="[defence]" />
+				<loadout>
+					<level exact="1.0" />
+				</loadout>
+			</station>
+		</station>		
+	</add>
 
 	<!-- ============================================================================================== -->
 	<!--                                           Cradle of Humanity                                   -->
@@ -1142,6 +1378,46 @@
 	<remove sel="/god/products/product[@id='pio_computronicsubstrate_oortcloud']"/>
 	<remove sel="/god/products/product[@id='pio_metallicmicrolattice_oortcloud']"/>
 	<remove sel="/god/products/product[@id='pio_siliconcarbide_oortcloud']"/>
+
+	<!-- Add Xenon defensive station -->
+	<add sel="/god/stations">
+		<station id="xen_defence_cluster_113_sector001" race="xenon" owner="xenon" type="defence">
+			<quotas>
+				<quota galaxy="1" zone="1" />
+			</quotas>
+			<location class="zone" macro="zone001_cluster_113_sector001_macro" matchextension="false" />
+			<station>
+				<select faction="xenon" tags="[defence]" />
+				<loadout>
+					<level exact="1.0" />
+				</loadout>
+			</station>
+		</station>
+		<station id="xen_defence_cluster_114_sector001" race="xenon" owner="xenon" type="defence">
+			<quotas>
+				<quota galaxy="1" zone="1" />
+			</quotas>
+			<location class="zone" macro="zone001_cluster_114_sector001_macro" matchextension="false" />
+			<station>
+				<select faction="xenon" tags="[defence]" />
+				<loadout>
+					<level exact="1.0" />
+				</loadout>
+			</station>
+		</station>
+		<station id="xen_defence_cluster_115_sector001" race="xenon" owner="xenon" type="defence">
+			<quotas>
+				<quota galaxy="1" zone="1" />
+			</quotas>
+			<location class="zone" macro="zone001_cluster_115_sector001_macro" matchextension="false" />
+			<station>
+				<select faction="xenon" tags="[defence]" />
+				<loadout>
+					<level exact="1.0" />
+				</loadout>
+			</station>
+		</station>		
+	</add>
 
 	<!-- ============================================================================================== -->
 	<!--                                          Split Vendetta                                        -->
@@ -1268,4 +1544,368 @@
 	<remove sel="/god/products/product[@id='tel_dlc_split_weaponcomponents']"/>
 	<remove sel="/god/products/product[@id='tel_dlc_split_teladianium']"/>
 	<remove sel="/god/products/product[@id='tel_dlc_split_siliconwafers']"/>
+
+	<!-- Add Xenon defensive station -->
+	<add sel="/god/stations">
+		<station id="xen_defence_cluster_400_sector001" race="xenon" owner="xenon" type="defence">
+			<quotas>
+				<quota galaxy="1" zone="1" />
+			</quotas>
+			<location class="zone" macro="zone001_cluster_400_sector001_macro" matchextension="false" />
+			<station>
+				<select faction="xenon" tags="[defence]" />
+				<loadout>
+					<level exact="1.0" />
+				</loadout>
+			</station>
+		</station>
+		<station id="xen_defence_cluster_401_sector001" race="xenon" owner="xenon" type="defence">
+			<quotas>
+				<quota galaxy="1" zone="1" />
+			</quotas>
+			<location class="zone" macro="zone001_cluster_401_sector001_macro" matchextension="false" />
+			<station>
+				<select faction="xenon" tags="[defence]" />
+				<loadout>
+					<level exact="1.0" />
+				</loadout>
+			</station>
+		</station>
+		<station id="xen_defence_cluster_402_sector001" race="xenon" owner="xenon" type="defence">
+			<quotas>
+				<quota galaxy="1" zone="1" />
+			</quotas>
+			<location class="zone" macro="zone001_cluster_402_sector001_macro" matchextension="false" />
+			<station>
+				<select faction="xenon" tags="[defence]" />
+				<loadout>
+					<level exact="1.0" />
+				</loadout>
+			</station>
+		</station>
+		<station id="xen_defence_cluster_403_sector001" race="xenon" owner="xenon" type="defence">
+			<quotas>
+				<quota galaxy="1" zone="1" />
+			</quotas>
+			<location class="zone" macro="zone001_cluster_403_sector001_macro" matchextension="false" />
+			<station>
+				<select faction="xenon" tags="[defence]" />
+				<loadout>
+					<level exact="1.0" />
+				</loadout>
+			</station>
+		</station>
+		<station id="xen_defence_cluster_404_sector001" race="xenon" owner="xenon" type="defence">
+			<quotas>
+				<quota galaxy="1" zone="1" />
+			</quotas>
+			<location class="zone" macro="zone001_cluster_404_sector001_macro" matchextension="false" />
+			<station>
+				<select faction="xenon" tags="[defence]" />
+				<loadout>
+					<level exact="1.0" />
+				</loadout>
+			</station>
+		</station>
+		<station id="xen_defence_cluster_405_sector001" race="xenon" owner="xenon" type="defence">
+			<quotas>
+				<quota galaxy="1" zone="1" />
+			</quotas>
+			<location class="zone" macro="zone001_cluster_405_sector001_macro" matchextension="false" />
+			<station>
+				<select faction="xenon" tags="[defence]" />
+				<loadout>
+					<level exact="1.0" />
+				</loadout>
+			</station>
+		</station>
+		<station id="xen_defence_cluster_406_sector001" race="xenon" owner="xenon" type="defence">
+			<quotas>
+				<quota galaxy="1" zone="1" />
+			</quotas>
+			<location class="zone" macro="zone001_cluster_406_sector001_macro" matchextension="false" />
+			<station>
+				<select faction="xenon" tags="[defence]" />
+				<loadout>
+					<level exact="1.0" />
+				</loadout>
+			</station>
+		</station>
+		<station id="xen_defence_cluster_407_sector001" race="xenon" owner="xenon" type="defence">
+			<quotas>
+				<quota galaxy="1" zone="1" />
+			</quotas>
+			<location class="zone" macro="zone001_cluster_407_sector001_macro" matchextension="false" />
+			<station>
+				<select faction="xenon" tags="[defence]" />
+				<loadout>
+					<level exact="1.0" />
+				</loadout>
+			</station>
+		</station>
+		<station id="xen_defence_cluster_408_sector001" race="xenon" owner="xenon" type="defence">
+			<quotas>
+				<quota galaxy="1" zone="1" />
+			</quotas>
+			<location class="zone" macro="zone001_cluster_408_sector001_macro" matchextension="false" />
+			<station>
+				<select faction="xenon" tags="[defence]" />
+				<loadout>
+					<level exact="1.0" />
+				</loadout>
+			</station>
+		</station>
+		<station id="xen_defence_cluster_408_sector002" race="xenon" owner="xenon" type="defence">
+			<quotas>
+				<quota galaxy="1" zone="1" />
+			</quotas>
+			<location class="zone" macro="zone001_cluster_408_sector002_macro" matchextension="false" />
+			<station>
+				<select faction="xenon" tags="[defence]" />
+				<loadout>
+					<level exact="1.0" />
+				</loadout>
+			</station>
+		</station>
+		<station id="xen_defence_cluster_409_sector001" race="xenon" owner="xenon" type="defence">
+			<quotas>
+				<quota galaxy="1" zone="1" />
+			</quotas>
+			<location class="zone" macro="zone001_cluster_409_sector001_macro" matchextension="false" />
+			<station>
+				<select faction="xenon" tags="[defence]" />
+				<loadout>
+					<level exact="1.0" />
+				</loadout>
+			</station>
+		</station>
+		<station id="xen_defence_cluster_410_sector001" race="xenon" owner="xenon" type="defence">
+			<quotas>
+				<quota galaxy="1" zone="1" />
+			</quotas>
+			<location class="zone" macro="zone001_cluster_410_sector001_macro" matchextension="false" />
+			<station>
+				<select faction="xenon" tags="[defence]" />
+				<loadout>
+					<level exact="1.0" />
+				</loadout>
+			</station>
+		</station>
+		<station id="xen_defence_cluster_411_sector001" race="xenon" owner="xenon" type="defence">
+			<quotas>
+				<quota galaxy="1" zone="1" />
+			</quotas>
+			<location class="zone" macro="zone001_cluster_411_sector001_macro" matchextension="false" />
+			<station>
+				<select faction="xenon" tags="[defence]" />
+				<loadout>
+					<level exact="1.0" />
+				</loadout>
+			</station>
+		</station>
+		<station id="xen_defence_cluster_412_sector001" race="xenon" owner="xenon" type="defence">
+			<quotas>
+				<quota galaxy="1" zone="1" />
+			</quotas>
+			<location class="zone" macro="zone001_cluster_412_sector001_macro" matchextension="false" />
+			<station>
+				<select faction="xenon" tags="[defence]" />
+				<loadout>
+					<level exact="1.0" />
+				</loadout>
+			</station>
+		</station>
+		<station id="xen_defence_cluster_413_sector001" race="xenon" owner="xenon" type="defence">
+			<quotas>
+				<quota galaxy="1" zone="1" />
+			</quotas>
+			<location class="zone" macro="zone001_cluster_413_sector001_macro" matchextension="false" />
+			<station>
+				<select faction="xenon" tags="[defence]" />
+				<loadout>
+					<level exact="1.0" />
+				</loadout>
+			</station>
+		</station>
+		<station id="xen_defence_cluster_414_sector001" race="xenon" owner="xenon" type="defence">
+			<quotas>
+				<quota galaxy="1" zone="1" />
+			</quotas>
+			<location class="zone" macro="zone001_cluster_414_sector001_macro" matchextension="false" />
+			<station>
+				<select faction="xenon" tags="[defence]" />
+				<loadout>
+					<level exact="1.0" />
+				</loadout>
+			</station>
+		</station>
+		<station id="xen_defence_cluster_415_sector001" race="xenon" owner="xenon" type="defence">
+			<quotas>
+				<quota galaxy="1" zone="1" />
+			</quotas>
+			<location class="zone" macro="zone001_cluster_415_sector001_macro" matchextension="false" />
+			<station>
+				<select faction="xenon" tags="[defence]" />
+				<loadout>
+					<level exact="1.0" />
+				</loadout>
+			</station>
+		</station>
+		<station id="xen_defence_cluster_416_sector001" race="xenon" owner="xenon" type="defence">
+			<quotas>
+				<quota galaxy="1" zone="1" />
+			</quotas>
+			<location class="zone" macro="zone001_cluster_416_sector001_macro" matchextension="false" />
+			<station>
+				<select faction="xenon" tags="[defence]" />
+				<loadout>
+					<level exact="1.0" />
+				</loadout>
+			</station>
+		</station>
+		<station id="xen_defence_cluster_416_sector002" race="xenon" owner="xenon" type="defence">
+			<quotas>
+				<quota galaxy="1" zone="1" />
+			</quotas>
+			<location class="zone" macro="zone001_cluster_416_sector002_macro" matchextension="false" />
+			<station>
+				<select faction="xenon" tags="[defence]" />
+				<loadout>
+					<level exact="1.0" />
+				</loadout>
+			</station>
+		</station>
+		<station id="xen_defence_cluster_417_sector001" race="xenon" owner="xenon" type="defence">
+			<quotas>
+				<quota galaxy="1" zone="1" />
+			</quotas>
+			<location class="zone" macro="zone001_cluster_417_sector001_macro" matchextension="false" />
+			<station>
+				<select faction="xenon" tags="[defence]" />
+				<loadout>
+					<level exact="1.0" />
+				</loadout>
+			</station>
+		</station>
+		<station id="xen_defence_cluster_418_sector001" race="xenon" owner="xenon" type="defence">
+			<quotas>
+				<quota galaxy="1" zone="1" />
+			</quotas>
+			<location class="zone" macro="zone001_cluster_418_sector001_macro" matchextension="false" />
+			<station>
+				<select faction="xenon" tags="[defence]" />
+				<loadout>
+					<level exact="1.0" />
+				</loadout>
+			</station>
+		</station>
+		<station id="xen_defence_cluster_419_sector001" race="xenon" owner="xenon" type="defence">
+			<quotas>
+				<quota galaxy="1" zone="1" />
+			</quotas>
+			<location class="zone" macro="zone001_cluster_419_sector001_macro" matchextension="false" />
+			<station>
+				<select faction="xenon" tags="[defence]" />
+				<loadout>
+					<level exact="1.0" />
+				</loadout>
+			</station>
+		</station>
+		<station id="xen_defence_cluster_420_sector001" race="xenon" owner="xenon" type="defence">
+			<quotas>
+				<quota galaxy="1" zone="1" />
+			</quotas>
+			<location class="zone" macro="zone001_cluster_420_sector001_macro" matchextension="false" />
+			<station>
+				<select faction="xenon" tags="[defence]" />
+				<loadout>
+					<level exact="1.0" />
+				</loadout>
+			</station>
+		</station>
+		<station id="xen_defence_cluster_421_sector001" race="xenon" owner="xenon" type="defence">
+			<quotas>
+				<quota galaxy="1" zone="1" />
+			</quotas>
+			<location class="zone" macro="zone001_cluster_421_sector001_macro" matchextension="false" />
+			<station>
+				<select faction="xenon" tags="[defence]" />
+				<loadout>
+					<level exact="1.0" />
+				</loadout>
+			</station>
+		</station>
+		<station id="xen_defence_cluster_422_sector001" race="xenon" owner="xenon" type="defence">
+			<quotas>
+				<quota galaxy="1" zone="1" />
+			</quotas>
+			<location class="zone" macro="zone001_cluster_422_sector001_macro" matchextension="false" />
+			<station>
+				<select faction="xenon" tags="[defence]" />
+				<loadout>
+					<level exact="1.0" />
+				</loadout>
+			</station>
+		</station>
+		<station id="xen_defence_cluster_423_sector001" race="xenon" owner="xenon" type="defence">
+			<quotas>
+				<quota galaxy="1" zone="1" />
+			</quotas>
+			<location class="zone" macro="zone001_cluster_423_sector001_macro" matchextension="false" />
+			<station>
+				<select faction="xenon" tags="[defence]" />
+				<loadout>
+					<level exact="1.0" />
+				</loadout>
+			</station>
+		</station>
+		<station id="xen_defence_cluster_423_sector002" race="xenon" owner="xenon" type="defence">
+			<quotas>
+				<quota galaxy="1" zone="1" />
+			</quotas>
+			<location class="zone" macro="zone001_cluster_423_sector002_macro" matchextension="false" />
+			<station>
+				<select faction="xenon" tags="[defence]" />
+				<loadout>
+					<level exact="1.0" />
+				</loadout>
+			</station>
+		</station>
+		<station id="xen_defence_cluster_424_sector001" race="xenon" owner="xenon" type="defence">
+			<quotas>
+				<quota galaxy="1" zone="1" />
+			</quotas>
+			<location class="zone" macro="zone001_cluster_424_sector001_macro" matchextension="false" />
+			<station>
+				<select faction="xenon" tags="[defence]" />
+				<loadout>
+					<level exact="1.0" />
+				</loadout>
+			</station>
+		</station>
+		<station id="xen_defence_cluster_424_sector002" race="xenon" owner="xenon" type="defence">
+			<quotas>
+				<quota galaxy="1" zone="1" />
+			</quotas>
+			<location class="zone" macro="zone001_cluster_424_sector002_macro" matchextension="false" />
+			<station>
+				<select faction="xenon" tags="[defence]" />
+				<loadout>
+					<level exact="1.0" />
+				</loadout>
+			</station>
+		</station>
+		<station id="xen_defence_cluster_425_sector001" race="xenon" owner="xenon" type="defence">
+			<quotas>
+				<quota galaxy="1" zone="1" />
+			</quotas>
+			<location class="zone" macro="zone001_cluster_425_sector001_macro" matchextension="false" />
+			<station>
+				<select faction="xenon" tags="[defence]" />
+				<loadout>
+					<level exact="1.0" />
+				</loadout>
+			</station>
+		</station>		
+	</add>
 </diff>
