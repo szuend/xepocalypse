@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <diff>
+	<!-- Disable the gate between Neptune and Brennans Triumph -->
 	<add sel="/macros/macro[@name='Zone002_Cluster_115_Sector001_macro']/connections/connection[@name='connection_ClusterGate115To110']/macro">
+		<properties>
+			<state active="false" />
+		</properties>
+	</add>
+	<add sel="/macros/macro[@name='Zone005_Cluster_110_Sector001_macro']/connections/connection[@name='connection_ClusterGate110To115']/macro">
 		<properties>
 			<state active="false" />
 		</properties>
