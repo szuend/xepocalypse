@@ -94,9 +94,168 @@
 	<remove sel="/god/stations/station[@id='piratebase_scaleplate_01']"/>
 	<remove sel="/god/stations/station[@id='piratebase_scaleplate_02']"/>
 
+	<!-- Argon Economy -->
+	<remove sel="/god/products/product[@id='arg_advancedcomposites']"/>
+	<remove sel="/god/products/product[@id='arg_advancedelectronics']"/>
+	<remove sel="/god/products/product[@id='arg_antimattercells']"/>
+	<remove sel="/god/products/product[@id='arg_antimatterconverters']"/>
+	<remove sel="/god/products/product[@id='arg_claytronics']"/>
+	<remove sel="/god/products/product[@id='arg_dronecomponents']"/>
+	<remove sel="/god/products/product[@id='arg_energycells']"/>
+	<remove sel="/god/products/product[@id='arg_engineparts']"/>
+	<remove sel="/god/products/product[@id='arg_fieldcoils']"/>
+	<remove sel="/god/products/product[@id='arg_foodrations']"/>
+	<remove sel="/god/products/product[@id='arg_graphene']"/>
+	<remove sel="/god/products/product[@id='arg_hullparts']"/>
+	<remove sel="/god/products/product[@id='arg_meat']"/>
+	<remove sel="/god/products/product[@id='arg_medicalsupplies']"/>
+	<remove sel="/god/products/product[@id='arg_microchips']"/>
+	<remove sel="/god/products/product[@id='arg_missilecomponents']"/>
+	<remove sel="/god/products/product[@id='arg_plasmaconductors']"/>
+	<remove sel="/god/products/product[@id='arg_quantumtubes']"/>
+	<remove sel="/god/products/product[@id='arg_refinedmetals']"/>
+	<remove sel="/god/products/product[@id='arg_scanningarrays']"/>
+	<remove sel="/god/products/product[@id='arg_shieldcomponents']"/>
+	<remove sel="/god/products/product[@id='arg_siliconwafers']"/>
+	<remove sel="/god/products/product[@id='arg_smartchips']"/>
+	<remove sel="/god/products/product[@id='arg_spacefuel']"/>
+	<remove sel="/god/products/product[@id='pir_spacefuel']"/>
+	<remove sel="/god/products/product[@id='arg_spices']"/>
+	<remove sel="/god/products/product[@id='arg_superfluidcoolant']"/>
+	<remove sel="/god/products/product[@id='arg_turretcomponents']"/>
+	<remove sel="/god/products/product[@id='arg_water']"/>
+	<remove sel="/god/products/product[@id='arg_weaponcomponents']"/>
+	<remove sel="/god/products/product[@id='arg_wheat']"/>
+
 	<!-- Antigone Economy -->
 	<remove sel="/god/products/product[@id='ant_advancedcomposites']"/>
 	<remove sel="/god/products/product[@id='ant_advancedelectronics']"/>
+	<remove sel="/god/products/product[@id='ant_antimattercells']"/>
+	<remove sel="/god/products/product[@id='ant_antimatterconverters']"/>
+	<remove sel="/god/products/product[@id='ant_claytronics']"/>
+	<remove sel="/god/products/product[@id='ant_dronecomponents']"/>
+	<remove sel="/god/products/product[@id='ant_energycells']"/>
+	<remove sel="/god/products/product[@id='ant_engineparts']"/>
+	<remove sel="/god/products/product[@id='ant_fieldcoils']"/>
+	<remove sel="/god/products/product[@id='ant_foodrations']"/>
+	<remove sel="/god/products/product[@id='ant_graphene']"/>
+	<remove sel="/god/products/product[@id='ant_hullparts']"/>
+	<remove sel="/god/products/product[@id='ant_meat']"/>
+	<remove sel="/god/products/product[@id='ant_medicalsupplies']"/>
+	<remove sel="/god/products/product[@id='ant_microchips']"/>
+	<remove sel="/god/products/product[@id='ant_missilecomponents']"/>
+	<remove sel="/god/products/product[@id='ant_plasmaconductors']"/>
+	<remove sel="/god/products/product[@id='ant_quantumtubes']"/>
+	<remove sel="/god/products/product[@id='ant_refinedmetals']"/>
+	<remove sel="/god/products/product[@id='ant_scanningarrays']"/>
+	<remove sel="/god/products/product[@id='ant_shieldcomponents']"/>
+	<remove sel="/god/products/product[@id='ant_siliconwafers']"/>
+	<remove sel="/god/products/product[@id='ant_smartchips']"/>
+	<remove sel="/god/products/product[@id='ant_spacefuel']"/>
+	<remove sel="/god/products/product[@id='ant_spices']"/>
+	<remove sel="/god/products/product[@id='ant_superfluidcoolant']"/>
+	<remove sel="/god/products/product[@id='ant_turretcomponents']"/>
+	<remove sel="/god/products/product[@id='ant_water']"/>
+	<remove sel="/god/products/product[@id='ant_weaponcomponents']"/>
+	<remove sel="/god/products/product[@id='ant_wheat']"/>
+
+	<!-- Paranid Economy -->
+	<remove sel="/god/products/product[@id='par_advancedcomposites']"/>
+	<remove sel="/god/products/product[@id='hol_advancedcomposites']"/>
+	<remove sel="/god/products/product[@id='par_advancedelectronics']"/>
+	<remove sel="/god/products/product[@id='hol_advancedelectronics']"/>
+	<remove sel="/god/products/product[@id='par_antimattercells']"/>
+	<remove sel="/god/products/product[@id='hol_antimattercells']"/>
+	<remove sel="/god/products/product[@id='par_antimatterconverters']"/>
+	<remove sel="/god/products/product[@id='hol_antimatterconverters']"/>
+	<remove sel="/god/products/product[@id='par_claytronics']"/>
+	<remove sel="/god/products/product[@id='hol_claytronics']"/>
+	<remove sel="/god/products/product[@id='par_dronecomponents']"/>
+	<remove sel="/god/products/product[@id='hol_dronecomponents']"/>
+	<remove sel="/god/products/product[@id='par_energycells']"/>
+	<remove sel="/god/products/product[@id='hol_energycells']"/>
+	<remove sel="/god/products/product[@id='par_engineparts']"/>
+	<remove sel="/god/products/product[@id='hol_engineparts']"/>
+	<remove sel="/god/products/product[@id='par_fieldcoils']"/>
+	<remove sel="/god/products/product[@id='hol_fieldcoils']"/>
+	<remove sel="/god/products/product[@id='par_graphene']"/>
+	<remove sel="/god/products/product[@id='hol_graphene']"/>
+	<remove sel="/god/products/product[@id='par_hullparts']"/>
+	<remove sel="/god/products/product[@id='hol_hullparts']"/>
+	<remove sel="/god/products/product[@id='sca_majadust']"/>
+	<remove sel="/god/products/product[@id='par_majasnails']"/>
+	<remove sel="/god/products/product[@id='hol_majasnails']"/>
+	<remove sel="/god/products/product[@id='sca_majasnails']"/>
+	<remove sel="/god/products/product[@id='par_medicalsupplies']"/>
+	<remove sel="/god/products/product[@id='hol_medicalsupplies']"/>
+	<remove sel="/god/products/product[@id='par_microchips']"/>
+	<remove sel="/god/products/product[@id='hol_microchips']"/>
+	<remove sel="/god/products/product[@id='par_missilecomponents']"/>
+	<remove sel="/god/products/product[@id='hol_missilecomponents']"/>
+	<remove sel="/god/products/product[@id='par_plasmaconductors']"/>
+	<remove sel="/god/products/product[@id='hol_plasmaconductors']"/>
+	<remove sel="/god/products/product[@id='par_quantumtubes']"/>
+	<remove sel="/god/products/product[@id='hol_quantumtubes']"/>
+	<remove sel="/god/products/product[@id='par_refinedmetals']"/>
+	<remove sel="/god/products/product[@id='hol_refinedmetals']"/>
+	<remove sel="/god/products/product[@id='par_scanningarrays']"/>
+	<remove sel="/god/products/product[@id='hol_scanningarrays']"/>
+	<remove sel="/god/products/product[@id='par_shieldcomponents']"/>
+	<remove sel="/god/products/product[@id='hol_shieldcomponents']"/>
+	<remove sel="/god/products/product[@id='par_siliconwafers']"/>
+	<remove sel="/god/products/product[@id='hol_siliconwafers']"/>
+	<remove sel="/god/products/product[@id='par_smartchips']"/>
+	<remove sel="/god/products/product[@id='hol_smartchips']"/>
+	<remove sel="/god/products/product[@id='par_sojabeans']"/>
+	<remove sel="/god/products/product[@id='hol_sojabeans']"/>
+	<remove sel="/god/products/product[@id='par_sojahusk']"/>
+	<remove sel="/god/products/product[@id='hol_sojahusk']"/>
+	<remove sel="/god/products/product[@id='par_spices']"/>
+	<remove sel="/god/products/product[@id='hol_spices']"/>
+	<remove sel="/god/products/product[@id='par_superfluidcoolant']"/>
+	<remove sel="/god/products/product[@id='hol_superfluidcoolant']"/>
+	<remove sel="/god/products/product[@id='par_turretcomponents']"/>
+	<remove sel="/god/products/product[@id='hol_turretcomponents']"/>
+	<remove sel="/god/products/product[@id='par_water']"/>
+	<remove sel="/god/products/product[@id='hol_water']"/>
+	<remove sel="/god/products/product[@id='par_weaponcomponents']"/>
+	<remove sel="/god/products/product[@id='hol_weaponcomponents']"/>
+
+	<!-- Teladi Economy -->
+	<remove sel="/god/products/product[@id='tel_advancedcomposites']"/>
+	<remove sel="/god/products/product[@id='tel_advancedelectronics']"/>
+	<remove sel="/god/products/product[@id='tel_antimattercells']"/>
+	<remove sel="/god/products/product[@id='tel_antimatterconverters']"/>
+	<remove sel="/god/products/product[@id='tel_claytronics']"/>
+	<remove sel="/god/products/product[@id='tel_dronecomponents']"/>
+	<remove sel="/god/products/product[@id='tel_energycells']"/>
+	<remove sel="/god/products/product[@id='tel_engineparts']"/>
+	<remove sel="/god/products/product[@id='tel_fieldcoils']"/>
+	<remove sel="/god/products/product[@id='tel_graphene']"/>
+	<remove sel="/god/products/product[@id='tel_hullparts']"/>
+	<remove sel="/god/products/product[@id='tel_medicalsupplies']"/>
+	<remove sel="/god/products/product[@id='tel_microchips']"/>
+	<remove sel="/god/products/product[@id='tel_missilecomponents']"/>
+	<remove sel="/god/products/product[@id='tel_nostropoil']"/>
+	<remove sel="/god/products/product[@id='tel_plasmaconductors']"/>
+	<remove sel="/god/products/product[@id='tel_quantumtubes']"/>
+	<remove sel="/god/products/product[@id='tel_scanningarrays']"/>
+	<remove sel="/god/products/product[@id='tel_shieldcomponents']"/>
+	<remove sel="/god/products/product[@id='tel_siliconwafers']"/>
+	<remove sel="/god/products/product[@id='tel_smartchips']"/>
+	<remove sel="/god/products/product[@id='tel_spaceweed']"/>
+	<remove sel="/god/products/product[@id='pir_spaceweed']"/>
+	<remove sel="/god/products/product[@id='tel_spices']"/>
+	<remove sel="/god/products/product[@id='tel_sunriseflowers']"/>
+	<remove sel="/god/products/product[@id='tel_superfluidcoolant']"/>
+	<remove sel="/god/products/product[@id='tel_swampplant']"/>
+	<remove sel="/god/products/product[@id='tel_teladianium']"/>
+	<remove sel="/god/products/product[@id='tel_turretcomponents']"/>
+	<remove sel="/god/products/product[@id='tel_water']"/>
+	<remove sel="/god/products/product[@id='tel_weaponcomponents']"/>
+
+	<!-- Xenon Economy (boost solar plants) -->
+	<replace sel="/god/products/product[@id='xen_energycells']/quotas/quota/@galaxy">60</replace>
 
 	<!-- Add Xenon defensive station -->
 	<add sel="/god/stations">
