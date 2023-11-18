@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <diff xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<!-- ============================================================================================== -->
+	<!--                                           Main game                                            -->
+	<!-- ============================================================================================== -->
 	<!-- Argone Federation -->
 	<remove sel="/god/stations/station[@id='shipyard_argon_01']"/>
 	<remove sel="/god/stations/station[@id='wharf_argon_01']"/>
@@ -310,4 +313,253 @@
       </station>
     </station>
 	</add>
+
+	<!-- ============================================================================================== -->
+	<!--                                           Kingdom End                                          -->
+	<!-- ============================================================================================== -->
+	<remove sel="/god/stations/station[@id='boron_defence_602_001']"/>
+	<remove sel="/god/stations/station[@id='boron_trade_602_001']"/>
+	<remove sel="/god/stations/station[@id='boron_defence_603_001']"/>
+	<remove sel="/god/stations/station[@id='boron_wharf_603_001']"/>
+	<remove sel="/god/stations/station[@id='boron_trade_604_001']"/>
+	<remove sel="/god/stations/station[@id='boron_defence_606_003']"/>
+	<remove sel="/god/stations/station[@id='boron_tradingport_606_003']"/>
+	<remove sel="/god/stations/station[@id='boron_defence_606_002']"/>
+	<remove sel="/god/stations/station[@id='boron_alliancehub_606_002']"/>
+	<remove sel="/god/stations/station[@id='boron_defence_606_001']"/>
+	<remove sel="/god/stations/station[@id='boron_wharf_606_001']"/>
+	<remove sel="/god/stations/station[@id='boron_shipyard_606_001']"/>
+	<remove sel="/god/stations/station[@id='boron_orbitalmooring_606_001']"/>
+	<remove sel="/god/stations/station[@id='boron_defence_607_001']"/>
+	<remove sel="/god/stations/station[@id='boron_supplyquay_607_001']"/>
+	<remove sel="/god/stations/station[@id='boron_defence_608_001']"/>
+	<remove sel="/god/stations/station[@id='boron_logisticsharbour_608_001']"/>
+	<remove sel="/god/stations/station[@id='boron_defence_609_001']"/>
+	<remove sel="/god/stations/station[@id='boron_equipment_609_001']"/>
+	<remove sel="/god/stations/station[@id='boron_supplyreservoir_609_001']"/>
+	<remove sel="/god/stations/station[@id='gs_boron2_hq']"/>
+
+	<remove sel="/god/products/product[@id='bor_advancedcomposites']"/>
+	<remove sel="/god/products/product[@id='bor_advancedelectronics']"/>
+	<remove sel="/god/products/product[@id='bor_antimattercells']"/>
+	<remove sel="/god/products/product[@id='bor_antimatterconverters']"/>
+	<remove sel="/god/products/product[@id='bor_claytronics']"/>
+	<remove sel="/god/products/product[@id='bor_dronecomponents']"/>
+	<remove sel="/god/products/product[@id='bor_energycells']"/>
+	<remove sel="/god/products/product[@id='bor_engineparts']"/>
+	<remove sel="/god/products/product[@id='bor_fieldcoils']"/>
+	<remove sel="/god/products/product[@id='bor_bofu']"/>
+	<remove sel="/god/products/product[@id='bor_graphene']"/>
+	<remove sel="/god/products/product[@id='bor_hullparts']"/>
+	<remove sel="/god/products/product[@id='bor_bogas']"/>
+	<remove sel="/god/products/product[@id='bor_medicalsupplies']"/>
+	<remove sel="/god/products/product[@id='bor_microchips']"/>
+	<remove sel="/god/products/product[@id='bor_missilecomponents']"/>
+	<remove sel="/god/products/product[@id='bor_plasmaconductors']"/>
+	<remove sel="/god/products/product[@id='bor_quantumtubes']"/>
+	<remove sel="/god/products/product[@id='bor_refinedmetals']"/>
+	<remove sel="/god/products/product[@id='bor_scanningarrays']"/>
+	<remove sel="/god/products/product[@id='bor_shieldcomponents']"/>
+	<remove sel="/god/products/product[@id='bor_siliconwafers']"/>
+	<remove sel="/god/products/product[@id='bor_smartchips']"/>
+	<remove sel="/god/products/product[@id='bor_superfluidcoolant']"/>
+	<remove sel="/god/products/product[@id='bor_turretcomponents']"/>
+	<remove sel="/god/products/product[@id='bor_water']"/>
+	<remove sel="/god/products/product[@id='bor_weaponcomponents']"/>
+	<remove sel="/god/products/product[@id='bor_plankton']"/>
+
+	<!-- ============================================================================================== -->
+	<!--                                         Tides of Avarice                                       -->
+	<!-- ============================================================================================== -->
+	<remove sel="/god/stations/station[@id='s3_station']"/>
+	<remove sel="/god/stations/station[@id='story_prison_station_id']"/>
+	<remove sel="/god/stations/station[@id='monument_s3station']"/>
+	<remove sel="/god/stations/station[@id='pirate_landmark_01']"/>
+	<remove sel="/god/stations/station[@id='pirate_landmark_02']"/>
+	<remove sel="/god/stations/station[@id='pirate_gs_1_smuggling_station']"/>
+	<remove sel="/god/stations/station[@id='loanshark_grand_refinery']"/>
+	<remove sel="/god/stations/station[@id='loanshark_shipyard_01']"/>
+	<remove sel="/god/stations/station[@id='loanshark_wharf_01']"/>
+	<remove sel="/god/stations/station[@id='loanshark_defence_01']"/>
+	<remove sel="/god/stations/station[@id='loanshark_defence_02']"/>
+	<remove sel="/god/stations/station[@id='loanshark_defence_03']"/>
+	<remove sel="/god/stations/station[@id='wharf_alliance_toa']"/>
+	<remove sel="/god/stations/station[@id='scavenger_shipyard_01']"/>
+	<remove sel="/god/stations/station[@id='scavenger_wharf_01']"/>
+	<remove sel="/god/stations/station[@id='scavenger_defence_01']"/>
+	<remove sel="/god/stations/station[@id='scavenger_defence_02']"/>
+	<remove sel="/god/stations/station[@id='scavenger_defence_03']"/>
+
+	<remove sel="/god/products/product[@id='rip_scrap_tide']"/>
+	<remove sel="/god/products/product[@id='rip_energycells_tide']"/>
+	<remove sel="/god/products/product[@id='vig_foodrations']"/>
+	<remove sel="/god/products/product[@id='vig_meat']"/>
+	<remove sel="/god/products/product[@id='vig_medicalsupplies']"/>
+	<remove sel="/god/products/product[@id='vig_spices']"/>
+	<remove sel="/god/products/product[@id='vig_water']"/>
+	<remove sel="/god/products/product[@id='vig_wheat']"/>
+
+	<!-- ============================================================================================== -->
+	<!--                                           Cradle of Humanity                                   -->
+	<!-- ============================================================================================== -->
+	<!-- Leave Terran alone since we start there but clear out pioneers -->                       
+	<remove sel="/god/stations/station[@id='pio_science']"/>                                                
+	<remove sel="/god/stations/station[@id='pio_defence_cluster_113_sector001']"/>                          
+	<remove sel="/god/stations/station[@id='pio_equipmentdock_zone001_cluster_113_sector001']"/>            
+	<remove sel="/god/stations/station[@id='x4ep1_gamestart_scientist_hq']"/>                               
+	<remove sel="/god/stations/station[@id='pio_defence_cluster_114_sector001']"/>                          
+	<remove sel="/god/stations/station[@id='pio_tradestation_cluster_114_sector001']"/>                     
+	<remove sel="/god/stations/station[@id='pio_processing']"/>                                           
+	<remove sel="/god/stations/station[@id='pio_shipyard_cluster_115_sector001']"/>                         
+	<remove sel="/god/stations/station[@id='pio_wharf_cluster_115_sector001']"/>                            
+	<remove sel="/god/stations/station[@id='pio_defence_cluster_115_sector001']"/>
+	
+	<remove sel="/god/products/product[@id='pio_metallicmicrolattice']"/>
+	<remove sel="/god/products/product[@id='pio_computronicsubstrate']"/>
+	<remove sel="/god/products/product[@id='pio_siliconcarbide']"/>
+	<remove sel="/god/products/product[@id='pio_energycells']"/>
+	<remove sel="/god/products/product[@id='pio_medicalsupplies']"/>
+	<remove sel="/god/products/product[@id='pio_proteinpaste']"/>
+	<remove sel="/god/products/product[@id='pio_terranmre']"/>
+	<remove sel="/god/products/product[@id='pio_stimulants']"/>
+	<remove sel="/god/products/product[@id='pio_terranmre_pluto']"/>
+	<remove sel="/god/products/product[@id='pio_metallicmicrolattice_pluto']"/>
+	<remove sel="/god/products/product[@id='pio_computronicsubstrate_pluto']"/>
+	<remove sel="/god/products/product[@id='pio_siliconcarbide_pluto']"/>
+	<remove sel="/god/products/product[@id='pio_medicalsupplies_pluto']"/>
+	<remove sel="/god/products/product[@id='pio_terranmre_neptune']"/>
+	<remove sel="/god/products/product[@id='pio_metallicmicrolattice_neptune']"/>
+	<remove sel="/god/products/product[@id='pio_computronicsubstrate_neptune']"/>
+	<remove sel="/god/products/product[@id='pio_siliconcarbide_neptune']"/>
+	<remove sel="/god/products/product[@id='pio_medicalsupplies_neptune']"/>
+	<remove sel="/god/products/product[@id='pio_proteinpaste_neptune']"/>
+	<remove sel="/god/products/product[@id='pio_computronicsubstrate_oortcloud']"/>
+	<remove sel="/god/products/product[@id='pio_metallicmicrolattice_oortcloud']"/>
+	<remove sel="/god/products/product[@id='pio_siliconcarbide_oortcloud']"/>
+
+	<!-- ============================================================================================== -->
+	<!--                                          Split Vendetta                                        -->
+	<!-- ============================================================================================== -->
+	<remove sel="/god/stations/station[@id='spl_defence_cluster_400_sector001']"/>
+	<remove sel="/god/stations/station[@id='equipmentdock_split_02']"/>
+	<remove sel="/god/stations/station[@id='spl_defence_cluster_401_sector001']"/>
+	<remove sel="/god/stations/station[@id='spl_defence_cluster_401_sector001_2']"/>
+	<remove sel="/god/stations/station[@id='spl_defence_cluster_402_sector001']"/>
+	<remove sel="/god/stations/station[@id='spl_defence_cluster_402_sector001_2']"/>
+	<remove sel="/god/stations/station[@id='wharf_split_02']"/>
+	<remove sel="/god/stations/station[@id='spl_defence_cluster_403_sector001']"/>
+	<remove sel="/god/stations/station[@id='equipmentdock_split_01']"/>
+	<remove sel="/god/stations/station[@id='spl_defence_cluster_404_sector001']"/>
+	<remove sel="/god/stations/station[@id='spl_defence_cluster_404_sector001_2']"/>
+	<remove sel="/god/stations/station[@id='shipyard_split_01']"/>
+	<remove sel="/god/stations/station[@id='shipyard_split_warforge_01']"/>
+	<remove sel="/god/stations/station[@id='wharf_split_01']"/>
+	<remove sel="/god/stations/station[@id='spl_defence_cluster_405_sector001']"/>
+	<remove sel="/god/stations/station[@id='spl_hullparts_landmark']"/>
+	<remove sel="/god/stations/station[@id='tradestation_split_01']"/>
+	<remove sel="/god/stations/station[@id='spl_defence_cluster_406_sector001']"/>
+	<remove sel="/god/stations/station[@id='spl_defence_cluster_406_sector001_2']"/>
+	<remove sel="/god/stations/station[@id='spl_defence_cluster_418_sector001']"/>
+	<remove sel="/god/stations/station[@id='spl_defence_cluster_418_sector001_2']"/>
+	<remove sel="/god/stations/station[@id='spl_defence_cluster_418_sector001_3']"/>
+	<remove sel="/god/stations/station[@id='shipyard_freesplit_01']"/>
+	<remove sel="/god/stations/station[@id='wharf_freesplit_01']"/>
+	<remove sel="/god/stations/station[@id='equipmentdock_freesplit_01']"/>
+	<remove sel="/god/stations/station[@id='equipmentdock_freesplit_02']"/>
+	<remove sel="/god/stations/station[@id='tradestation_freesplit_01']"/>
+	<remove sel="/god/stations/station[@id='frf_defence_cluster_407_sector001']"/>
+	<remove sel="/god/stations/station[@id='frf_defence_cluster_408_sector001']"/>
+	<remove sel="/god/stations/station[@id='frf_defence_cluster_408_sector002']"/>
+	<remove sel="/god/stations/station[@id='frf_defence_cluster_409_sector001']"/>
+	<remove sel="/god/stations/station[@id='frf_defence_cluster_410_sector001']"/>
+	<remove sel="/god/stations/station[@id='frf_defence_cluster_411_sector001']"/>
+	<remove sel="/god/stations/station[@id='frf_defence_cluster_412_sector001']"/>
+	<remove sel="/god/stations/station[@id='frf_defence_cluster_421_sector001']"/>
+	<remove sel="/god/stations/station[@id='arg_defence_cluster_416_sector001']"/>
+	<remove sel="/god/stations/station[@id='arg_defence_cluster_416_sector002']"/>
+	<remove sel="/god/stations/station[@id='arg_wharf_cluster_416_sector002']"/>
+	<remove sel="/god/stations/station[@id='arg_defence_cluster_417_sector001']"/>
+	<remove sel="/god/stations/station[@id='par_defence_cluster_423_sector001']"/>
+	<remove sel="/god/stations/station[@id='par_defence_cluster_423_sector002']"/>
+	<remove sel="/god/stations/station[@id='par_defence_cluster_422_sector001']"/>
+	<remove sel="/god/stations/station[@id='par_wharf_cluster_422_sector001']"/>
+	<remove sel="/god/stations/station[@id='tel_dlc_split_ringstation_01']"/>
+	<remove sel="/god/stations/station[@id='tel_defence_cluster_419_sector001']"/>
+	<remove sel="/god/stations/station[@id='tel_defence_cluster_420_sector001']"/>
+
+	<remove sel="/god/products/product[@id='spl_advancedcomposites']"/>
+	<remove sel="/god/products/product[@id='spl_advancedelectronics']"/>
+	<remove sel="/god/products/product[@id='spl_antimattercells']"/>
+	<remove sel="/god/products/product[@id='spl_antimatterconverters']"/>
+	<remove sel="/god/products/product[@id='spl_cheltmeat']"/>
+	<remove sel="/god/products/product[@id='spl_claytronics']"/>
+	<remove sel="/god/products/product[@id='spl_dronecomponents']"/>
+	<remove sel="/god/products/product[@id='spl_energycells']"/>
+	<remove sel="/god/products/product[@id='spl_engineparts']"/>
+	<remove sel="/god/products/product[@id='spl_fieldcoils']"/>
+	<remove sel="/god/products/product[@id='spl_graphene']"/>
+	<remove sel="/god/products/product[@id='spl_hullparts']"/>
+	<remove sel="/god/products/product[@id='spl_medicalsupplies']"/>
+	<remove sel="/god/products/product[@id='spl_microchips']"/>
+	<remove sel="/god/products/product[@id='spl_missilecomponents']"/>
+	<remove sel="/god/products/product[@id='spl_plasmaconductors']"/>
+	<remove sel="/god/products/product[@id='spl_quantumtubes']"/>
+	<remove sel="/god/products/product[@id='spl_refinedmetals']"/>
+	<remove sel="/god/products/product[@id='spl_scanningarrays']"/>
+	<remove sel="/god/products/product[@id='spl_scruffinfruits']"/>
+	<remove sel="/god/products/product[@id='spl_shieldcomponents']"/>
+	<remove sel="/god/products/product[@id='spl_siliconwafers']"/>
+	<remove sel="/god/products/product[@id='spl_smartchips']"/>
+	<remove sel="/god/products/product[@id='spl_spices']"/>
+	<remove sel="/god/products/product[@id='spl_superfluidcoolant']"/>
+	<remove sel="/god/products/product[@id='spl_turretcomponents']"/>
+	<remove sel="/god/products/product[@id='spl_water']"/>
+	<remove sel="/god/products/product[@id='spl_weaponcomponents']"/>
+	<remove sel="/god/products/product[@id='frf_advancedcomposites']"/>
+	<remove sel="/god/products/product[@id='frf_advancedelectronics']"/>
+	<remove sel="/god/products/product[@id='frf_antimattercells']"/>
+	<remove sel="/god/products/product[@id='frf_antimatterconverters']"/>
+	<remove sel="/god/products/product[@id='frf_cheltmeat']"/>
+	<remove sel="/god/products/product[@id='frf_claytronics']"/>
+	<remove sel="/god/products/product[@id='frf_dronecomponents']"/>
+	<remove sel="/god/products/product[@id='frf_energycells']"/>
+	<remove sel="/god/products/product[@id='frf_engineparts']"/>
+	<remove sel="/god/products/product[@id='frf_fieldcoils']"/>
+	<remove sel="/god/products/product[@id='frf_graphene']"/>
+	<remove sel="/god/products/product[@id='frf_hullparts']"/>
+	<remove sel="/god/products/product[@id='frf_medicalsupplies']"/>
+	<remove sel="/god/products/product[@id='frf_microchips']"/>
+	<remove sel="/god/products/product[@id='frf_missilecomponents']"/>
+	<remove sel="/god/products/product[@id='frf_plasmaconductors']"/>
+	<remove sel="/god/products/product[@id='frf_quantumtubes']"/>
+	<remove sel="/god/products/product[@id='frf_refinedmetals']"/>
+	<remove sel="/god/products/product[@id='frf_scanningarrays']"/>
+	<remove sel="/god/products/product[@id='frf_scruffinfruits']"/>
+	<remove sel="/god/products/product[@id='frf_shieldcomponents']"/>
+	<remove sel="/god/products/product[@id='frf_siliconwafers']"/>
+	<remove sel="/god/products/product[@id='frf_smartchips']"/>
+	<remove sel="/god/products/product[@id='frf_spices']"/>
+	<remove sel="/god/products/product[@id='frf_superfluidcoolant']"/>
+	<remove sel="/god/products/product[@id='frf_turretcomponents']"/>
+	<remove sel="/god/products/product[@id='frf_water']"/>
+	<remove sel="/god/products/product[@id='frf_weaponcomponents']"/>
+	<remove sel="/god/products/product[@id='arg_dlc_split_energycells']"/>
+	<remove sel="/god/products/product[@id='arg_dlc_split_foodrations']"/>
+	<remove sel="/god/products/product[@id='arg_dlc_split_meat']"/>
+	<remove sel="/god/products/product[@id='arg_dlc_split_medicalsupplies']"/>
+	<remove sel="/god/products/product[@id='arg_dlc_split_spacefuel']"/>
+	<remove sel="/god/products/product[@id='arg_dlc_split_spices']"/>
+	<remove sel="/god/products/product[@id='arg_dlc_split_water']"/>
+	<remove sel="/god/products/product[@id='arg_dlc_split_wheat']"/>
+	<remove sel="/god/products/product[@id='par_dlc_split_antimatterconverters']"/>
+	<remove sel="/god/products/product[@id='par_dlc_split_energycells']"/>
+	<remove sel="/god/products/product[@id='par_dlc_split_engineparts']"/>
+	<remove sel="/god/products/product[@id='par_dlc_split_hullparts']"/>
+	<remove sel="/god/products/product[@id='par_dlc_split_shieldcomponents']"/>
+	<remove sel="/god/products/product[@id='par_dlc_split_turretcomponents']"/>
+	<remove sel="/god/products/product[@id='par_dlc_split_weaponcomponents']"/>
+	<remove sel="/god/products/product[@id='tel_dlc_split_advancedelectronics']"/>
+	<remove sel="/god/products/product[@id='tel_dlc_split_weaponcomponents']"/>
+	<remove sel="/god/products/product[@id='tel_dlc_split_teladianium']"/>
+	<remove sel="/god/products/product[@id='tel_dlc_split_siliconwafers']"/>
 </diff>
