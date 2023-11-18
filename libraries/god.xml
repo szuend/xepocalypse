@@ -262,7 +262,7 @@
 
 	<!-- Add Xenon defensive station -->
 	<add sel="/god/stations">
-		<station id="xen_defence_cluster_01_sector001" race="xenon" owner="xenon" type="defence">
+		<station id="xenpo_defence_cluster_01_sector001" race="xenon" owner="xenon" type="defence">
 			<quotas>
 				<quota galaxy="1" zone="1" />
 			</quotas>
@@ -274,7 +274,7 @@
 				</loadout>
 			</station>
 		</station>
-		<station id="xen_defence_cluster_01_sector002" race="xenon" owner="xenon" type="defence">
+		<station id="xenpo_defence_cluster_01_sector002" race="xenon" owner="xenon" type="defence">
 			<quotas>
 				<quota galaxy="1" zone="1" />
 			</quotas>
@@ -286,7 +286,7 @@
 				</loadout>
 			</station>
 		</station>
-		<station id="xen_defence_cluster_01_sector003" race="xenon" owner="xenon" type="defence">
+		<station id="xenpo_defence_cluster_01_sector003" race="xenon" owner="xenon" type="defence">
 			<quotas>
 				<quota galaxy="1" zone="1" />
 			</quotas>
@@ -298,7 +298,7 @@
 				</loadout>
 			</station>
 		</station>
-		<station id="xen_defence_cluster_02_sector001" race="xenon" owner="xenon" type="defence">
+		<station id="xenpo_defence_cluster_02_sector001" race="xenon" owner="xenon" type="defence">
 			<quotas>
 				<quota galaxy="1" zone="1" />
 			</quotas>
@@ -310,7 +310,7 @@
 				</loadout>
 			</station>
 		</station>
-		<station id="xen_defence_cluster_03_sector001" race="xenon" owner="xenon" type="defence">
+		<station id="xenpo_defence_cluster_03_sector001" race="xenon" owner="xenon" type="defence">
 			<quotas>
 				<quota galaxy="1" zone="1" />
 			</quotas>
@@ -322,7 +322,7 @@
 				</loadout>
 			</station>
 		</station>
-		<station id="xen_defence_cluster_04_sector001" race="xenon" owner="xenon" type="defence">
+		<station id="xenpo_defence_cluster_04_sector001" race="xenon" owner="xenon" type="defence">
 			<quotas>
 				<quota galaxy="1" zone="1" />
 			</quotas>
@@ -334,7 +334,7 @@
 				</loadout>
 			</station>
 		</station>
-		<station id="xen_defence_cluster_04_sector002" race="xenon" owner="xenon" type="defence">
+		<station id="xenpo_defence_cluster_04_sector002" race="xenon" owner="xenon" type="defence">
 			<quotas>
 				<quota galaxy="1" zone="1" />
 			</quotas>
@@ -346,7 +346,7 @@
 				</loadout>
 			</station>
 		</station>
-		<station id="xen_defence_cluster_05_sector001" race="xenon" owner="xenon" type="defence">
+		<station id="xenpo_defence_cluster_05_sector001" race="xenon" owner="xenon" type="defence">
 			<quotas>
 				<quota galaxy="1" zone="1" />
 			</quotas>
@@ -358,7 +358,7 @@
 				</loadout>
 			</station>
 		</station>
-		<station id="xen_defence_cluster_06_sector001" race="xenon" owner="xenon" type="defence">
+		<station id="xenpo_defence_cluster_06_sector001" race="xenon" owner="xenon" type="defence">
 			<quotas>
 				<quota galaxy="1" zone="1" />
 			</quotas>
@@ -370,7 +370,7 @@
 				</loadout>
 			</station>
 		</station>
-		<station id="xen_defence_cluster_06_sector002" race="xenon" owner="xenon" type="defence">
+		<station id="xenpo_defence_cluster_06_sector002" race="xenon" owner="xenon" type="defence">
 			<quotas>
 				<quota galaxy="1" zone="1" />
 			</quotas>
@@ -382,7 +382,7 @@
 				</loadout>
 			</station>
 		</station>
-		<station id="xen_defence_cluster_07_sector001" race="xenon" owner="xenon" type="defence">
+		<station id="xenpo_defence_cluster_07_sector001" race="xenon" owner="xenon" type="defence">
 			<quotas>
 				<quota galaxy="1" zone="1" />
 			</quotas>
@@ -394,7 +394,7 @@
 				</loadout>
 			</station>
 		</station>
-		<station id="xen_defence_cluster_08_sector001" race="xenon" owner="xenon" type="defence">
+		<station id="xenpo_defence_cluster_08_sector001" race="xenon" owner="xenon" type="defence">
 			<quotas>
 				<quota galaxy="1" zone="1" />
 			</quotas>
@@ -406,7 +406,7 @@
 				</loadout>
 			</station>
 		</station>
-		<station id="xen_defence_cluster_09_sector001" race="xenon" owner="xenon" type="defence">
+		<station id="xenpo_defence_cluster_09_sector001" race="xenon" owner="xenon" type="defence">
 			<quotas>
 				<quota galaxy="1" zone="1" />
 			</quotas>
@@ -418,7 +418,7 @@
 				</loadout>
 			</station>
 		</station>
-		<station id="xen_defence_cluster_10_sector001" race="xenon" owner="xenon" type="defence">
+		<station id="xenpo_defence_cluster_10_sector001" race="xenon" owner="xenon" type="defence">
 			<quotas>
 				<quota galaxy="1" zone="1" />
 			</quotas>
@@ -430,7 +430,7 @@
 				</loadout>
 			</station>
 		</station>
-		<station id="xen_defence_cluster_11_sector001" race="xenon" owner="xenon" type="defence">
+		<station id="xenpo_defence_cluster_11_sector001" race="xenon" owner="xenon" type="defence">
 			<quotas>
 				<quota galaxy="1" zone="1" />
 			</quotas>
@@ -442,7 +442,7 @@
 				</loadout>
 			</station>
 		</station>
-		<station id="xen_defence_cluster_12_sector001" race="xenon" owner="xenon" type="defence">
+		<station id="xenpo_defence_cluster_12_sector001" race="xenon" owner="xenon" type="defence">
 			<quotas>
 				<quota galaxy="1" zone="1" />
 			</quotas>
@@ -454,7 +454,7 @@
 				</loadout>
 			</station>
 		</station>
-		<station id="xen_defence_cluster_13_sector001" race="xenon" owner="xenon" type="defence">
+		<station id="xenpo_defence_cluster_13_sector001" race="xenon" owner="xenon" type="defence">
 			<quotas>
 				<quota galaxy="1" zone="1" />
 			</quotas>
@@ -466,7 +466,7 @@
 				</loadout>
 			</station>
 		</station>
-		<station id="xen_defence_cluster_14_sector001" race="xenon" owner="xenon" type="defence">
+		<station id="xenpo_defence_cluster_14_sector001" race="xenon" owner="xenon" type="defence">
 			<quotas>
 				<quota galaxy="1" zone="1" />
 			</quotas>
@@ -478,7 +478,7 @@
 				</loadout>
 			</station>
 		</station>
-		<station id="xen_defence_cluster_15_sector001" race="xenon" owner="xenon" type="defence">
+		<station id="xenpo_defence_cluster_15_sector001" race="xenon" owner="xenon" type="defence">
 			<quotas>
 				<quota galaxy="1" zone="1" />
 			</quotas>
@@ -490,7 +490,7 @@
 				</loadout>
 			</station>
 		</station>
-		<station id="xen_defence_cluster_15_sector002" race="xenon" owner="xenon" type="defence">
+		<station id="xenpo_defence_cluster_15_sector002" race="xenon" owner="xenon" type="defence">
 			<quotas>
 				<quota galaxy="1" zone="1" />
 			</quotas>
@@ -502,7 +502,7 @@
 				</loadout>
 			</station>
 		</station>
-		<station id="xen_defence_cluster_16_sector001" race="xenon" owner="xenon" type="defence">
+		<station id="xenpo_defence_cluster_16_sector001" race="xenon" owner="xenon" type="defence">
 			<quotas>
 				<quota galaxy="1" zone="1" />
 			</quotas>
@@ -514,7 +514,7 @@
 				</loadout>
 			</station>
 		</station>
-		<station id="xen_defence_cluster_17_sector001" race="xenon" owner="xenon" type="defence">
+		<station id="xenpo_defence_cluster_17_sector001" race="xenon" owner="xenon" type="defence">
 			<quotas>
 				<quota galaxy="1" zone="1" />
 			</quotas>
@@ -526,7 +526,7 @@
 				</loadout>
 			</station>
 		</station>
-		<station id="xen_defence_cluster_18_sector001" race="xenon" owner="xenon" type="defence">
+		<station id="xenpo_defence_cluster_18_sector001" race="xenon" owner="xenon" type="defence">
 			<quotas>
 				<quota galaxy="1" zone="1" />
 			</quotas>
@@ -538,7 +538,7 @@
 				</loadout>
 			</station>
 		</station>
-		<station id="xen_defence_cluster_19_sector001" race="xenon" owner="xenon" type="defence">
+		<station id="xenpo_defence_cluster_19_sector001" race="xenon" owner="xenon" type="defence">
 			<quotas>
 				<quota galaxy="1" zone="1" />
 			</quotas>
@@ -550,7 +550,7 @@
 				</loadout>
 			</station>
 		</station>
-		<station id="xen_defence_cluster_19_sector002" race="xenon" owner="xenon" type="defence">
+		<station id="xenpo_defence_cluster_19_sector002" race="xenon" owner="xenon" type="defence">
 			<quotas>
 				<quota galaxy="1" zone="1" />
 			</quotas>
@@ -562,7 +562,7 @@
 				</loadout>
 			</station>
 		</station>
-		<station id="xen_defence_cluster_20_sector001" race="xenon" owner="xenon" type="defence">
+		<station id="xenpo_defence_cluster_20_sector001" race="xenon" owner="xenon" type="defence">
 			<quotas>
 				<quota galaxy="1" zone="1" />
 			</quotas>
@@ -574,7 +574,7 @@
 				</loadout>
 			</station>
 		</station>
-		<station id="xen_defence_cluster_21_sector001" race="xenon" owner="xenon" type="defence">
+		<station id="xenpo_defence_cluster_21_sector001" race="xenon" owner="xenon" type="defence">
 			<quotas>
 				<quota galaxy="1" zone="1" />
 			</quotas>
@@ -586,7 +586,7 @@
 				</loadout>
 			</station>
 		</station>
-		<station id="xen_defence_cluster_21_sector002" race="xenon" owner="xenon" type="defence">
+		<station id="xenpo_defence_cluster_21_sector002" race="xenon" owner="xenon" type="defence">
 			<quotas>
 				<quota galaxy="1" zone="1" />
 			</quotas>
@@ -598,7 +598,7 @@
 				</loadout>
 			</station>
 		</station>
-		<station id="xen_defence_cluster_22_sector001" race="xenon" owner="xenon" type="defence">
+		<station id="xenpo_defence_cluster_22_sector001" race="xenon" owner="xenon" type="defence">
 			<quotas>
 				<quota galaxy="1" zone="1" />
 			</quotas>
@@ -610,7 +610,7 @@
 				</loadout>
 			</station>
 		</station>
-		<station id="xen_defence_cluster_23_sector001" race="xenon" owner="xenon" type="defence">
+		<station id="xenpo_defence_cluster_23_sector001" race="xenon" owner="xenon" type="defence">
 			<quotas>
 				<quota galaxy="1" zone="1" />
 			</quotas>
@@ -622,7 +622,7 @@
 				</loadout>
 			</station>
 		</station>
-		<station id="xen_defence_cluster_24_sector001" race="xenon" owner="xenon" type="defence">
+		<station id="xenpo_defence_cluster_24_sector001" race="xenon" owner="xenon" type="defence">
 			<quotas>
 				<quota galaxy="1" zone="1" />
 			</quotas>
@@ -634,7 +634,7 @@
 				</loadout>
 			</station>
 		</station>
-		<station id="xen_defence_cluster_25_sector001" race="xenon" owner="xenon" type="defence">
+		<station id="xenpo_defence_cluster_25_sector001" race="xenon" owner="xenon" type="defence">
 			<quotas>
 				<quota galaxy="1" zone="1" />
 			</quotas>
@@ -646,7 +646,7 @@
 				</loadout>
 			</station>
 		</station>
-		<station id="xen_defence_cluster_25_sector002" race="xenon" owner="xenon" type="defence">
+		<station id="xenpo_defence_cluster_25_sector002" race="xenon" owner="xenon" type="defence">
 			<quotas>
 				<quota galaxy="1" zone="1" />
 			</quotas>
@@ -658,7 +658,7 @@
 				</loadout>
 			</station>
 		</station>
-		<station id="xen_defence_cluster_26_sector001" race="xenon" owner="xenon" type="defence">
+		<station id="xenpo_defence_cluster_26_sector001" race="xenon" owner="xenon" type="defence">
 			<quotas>
 				<quota galaxy="1" zone="1" />
 			</quotas>
@@ -670,7 +670,7 @@
 				</loadout>
 			</station>
 		</station>
-		<station id="xen_defence_cluster_26_sector002" race="xenon" owner="xenon" type="defence">
+		<station id="xenpo_defence_cluster_26_sector002" race="xenon" owner="xenon" type="defence">
 			<quotas>
 				<quota galaxy="1" zone="1" />
 			</quotas>
@@ -682,7 +682,7 @@
 				</loadout>
 			</station>
 		</station>
-		<station id="xen_defence_cluster_27_sector001" race="xenon" owner="xenon" type="defence">
+		<station id="xenpo_defence_cluster_27_sector001" race="xenon" owner="xenon" type="defence">
 			<quotas>
 				<quota galaxy="1" zone="1" />
 			</quotas>
@@ -694,7 +694,7 @@
 				</loadout>
 			</station>
 		</station>
-		<station id="xen_defence_cluster_28_sector001" race="xenon" owner="xenon" type="defence">
+		<station id="xenpo_defence_cluster_28_sector001" race="xenon" owner="xenon" type="defence">
 			<quotas>
 				<quota galaxy="1" zone="1" />
 			</quotas>
@@ -706,7 +706,7 @@
 				</loadout>
 			</station>
 		</station>
-		<station id="xen_defence_cluster_29_sector001" race="xenon" owner="xenon" type="defence">
+		<station id="xenpo_defence_cluster_29_sector001" race="xenon" owner="xenon" type="defence">
 			<quotas>
 				<quota galaxy="1" zone="1" />
 			</quotas>
@@ -718,7 +718,7 @@
 				</loadout>
 			</station>
 		</station>
-		<station id="xen_defence_cluster_29_sector002" race="xenon" owner="xenon" type="defence">
+		<station id="xenpo_defence_cluster_29_sector002" race="xenon" owner="xenon" type="defence">
 			<quotas>
 				<quota galaxy="1" zone="1" />
 			</quotas>
@@ -730,7 +730,7 @@
 				</loadout>
 			</station>
 		</station>
-		<station id="xen_defence_cluster_30_sector001" race="xenon" owner="xenon" type="defence">
+		<station id="xenpo_defence_cluster_30_sector001" race="xenon" owner="xenon" type="defence">
 			<quotas>
 				<quota galaxy="1" zone="1" />
 			</quotas>
@@ -742,7 +742,7 @@
 				</loadout>
 			</station>
 		</station>
-		<station id="xen_defence_cluster_31_sector001" race="xenon" owner="xenon" type="defence">
+		<station id="xenpo_defence_cluster_31_sector001" race="xenon" owner="xenon" type="defence">
 			<quotas>
 				<quota galaxy="1" zone="1" />
 			</quotas>
@@ -754,7 +754,7 @@
 				</loadout>
 			</station>
 		</station>
-		<station id="xen_defence_cluster_32_sector001" race="xenon" owner="xenon" type="defence">
+		<station id="xenpo_defence_cluster_32_sector001" race="xenon" owner="xenon" type="defence">
 			<quotas>
 				<quota galaxy="1" zone="1" />
 			</quotas>
@@ -766,7 +766,7 @@
 				</loadout>
 			</station>
 		</station>
-		<station id="xen_defence_cluster_32_sector002" race="xenon" owner="xenon" type="defence">
+		<station id="xenpo_defence_cluster_32_sector002" race="xenon" owner="xenon" type="defence">
 			<quotas>
 				<quota galaxy="1" zone="1" />
 			</quotas>
@@ -778,7 +778,7 @@
 				</loadout>
 			</station>
 		</station>
-		<station id="xen_defence_cluster_33_sector001" race="xenon" owner="xenon" type="defence">
+		<station id="xenpo_defence_cluster_33_sector001" race="xenon" owner="xenon" type="defence">
 			<quotas>
 				<quota galaxy="1" zone="1" />
 			</quotas>
@@ -790,7 +790,7 @@
 				</loadout>
 			</station>
 		</station>
-		<station id="xen_defence_cluster_34_sector001" race="xenon" owner="xenon" type="defence">
+		<station id="xenpo_defence_cluster_34_sector001" race="xenon" owner="xenon" type="defence">
 			<quotas>
 				<quota galaxy="1" zone="1" />
 			</quotas>
@@ -802,7 +802,7 @@
 				</loadout>
 			</station>
 		</station>
-		<station id="xen_defence_cluster_35_sector001" race="xenon" owner="xenon" type="defence">
+		<station id="xenpo_defence_cluster_35_sector001" race="xenon" owner="xenon" type="defence">
 			<quotas>
 				<quota galaxy="1" zone="1" />
 			</quotas>
@@ -814,7 +814,7 @@
 				</loadout>
 			</station>
 		</station>
-		<station id="xen_defence_cluster_36_sector001" race="xenon" owner="xenon" type="defence">
+		<station id="xenpo_defence_cluster_36_sector001" race="xenon" owner="xenon" type="defence">
 			<quotas>
 				<quota galaxy="1" zone="1" />
 			</quotas>
@@ -826,7 +826,7 @@
 				</loadout>
 			</station>
 		</station>
-		<station id="xen_defence_cluster_37_sector001" race="xenon" owner="xenon" type="defence">
+		<station id="xenpo_defence_cluster_37_sector001" race="xenon" owner="xenon" type="defence">
 			<quotas>
 				<quota galaxy="1" zone="1" />
 			</quotas>
@@ -838,7 +838,7 @@
 				</loadout>
 			</station>
 		</station>
-		<station id="xen_defence_cluster_38_sector001" race="xenon" owner="xenon" type="defence">
+		<station id="xenpo_defence_cluster_38_sector001" race="xenon" owner="xenon" type="defence">
 			<quotas>
 				<quota galaxy="1" zone="1" />
 			</quotas>
@@ -850,7 +850,7 @@
 				</loadout>
 			</station>
 		</station>
-		<station id="xen_defence_cluster_39_sector001" race="xenon" owner="xenon" type="defence">
+		<station id="xenpo_defence_cluster_39_sector001" race="xenon" owner="xenon" type="defence">
 			<quotas>
 				<quota galaxy="1" zone="1" />
 			</quotas>
@@ -862,7 +862,7 @@
 				</loadout>
 			</station>
 		</station>
-		<station id="xen_defence_cluster_40_sector001" race="xenon" owner="xenon" type="defence">
+		<station id="xenpo_defence_cluster_40_sector001" race="xenon" owner="xenon" type="defence">
 			<quotas>
 				<quota galaxy="1" zone="1" />
 			</quotas>
@@ -874,7 +874,7 @@
 				</loadout>
 			</station>
 		</station>
-		<station id="xen_defence_cluster_41_sector001" race="xenon" owner="xenon" type="defence">
+		<station id="xenpo_defence_cluster_41_sector001" race="xenon" owner="xenon" type="defence">
 			<quotas>
 				<quota galaxy="1" zone="1" />
 			</quotas>
@@ -886,7 +886,7 @@
 				</loadout>
 			</station>
 		</station>
-		<station id="xen_defence_cluster_42_sector001" race="xenon" owner="xenon" type="defence">
+		<station id="xenpo_defence_cluster_42_sector001" race="xenon" owner="xenon" type="defence">
 			<quotas>
 				<quota galaxy="1" zone="1" />
 			</quotas>
@@ -898,7 +898,7 @@
 				</loadout>
 			</station>
 		</station>
-		<station id="xen_defence_cluster_42_sector002" race="xenon" owner="xenon" type="defence">
+		<station id="xenpo_defence_cluster_42_sector002" race="xenon" owner="xenon" type="defence">
 			<quotas>
 				<quota galaxy="1" zone="1" />
 			</quotas>
@@ -910,7 +910,7 @@
 				</loadout>
 			</station>
 		</station>
-		<station id="xen_defence_cluster_43_sector001" race="xenon" owner="xenon" type="defence">
+		<station id="xenpo_defence_cluster_43_sector001" race="xenon" owner="xenon" type="defence">
 			<quotas>
 				<quota galaxy="1" zone="1" />
 			</quotas>
@@ -922,7 +922,7 @@
 				</loadout>
 			</station>
 		</station>
-		<station id="xen_defence_cluster_44_sector001" race="xenon" owner="xenon" type="defence">
+		<station id="xenpo_defence_cluster_44_sector001" race="xenon" owner="xenon" type="defence">
 			<quotas>
 				<quota galaxy="1" zone="1" />
 			</quotas>
@@ -934,7 +934,7 @@
 				</loadout>
 			</station>
 		</station>
-		<station id="xen_defence_cluster_45_sector001" race="xenon" owner="xenon" type="defence">
+		<station id="xenpo_defence_cluster_45_sector001" race="xenon" owner="xenon" type="defence">
 			<quotas>
 				<quota galaxy="1" zone="1" />
 			</quotas>
@@ -946,7 +946,7 @@
 				</loadout>
 			</station>
 		</station>
-		<station id="xen_defence_cluster_46_sector001" race="xenon" owner="xenon" type="defence">
+		<station id="xenpo_defence_cluster_46_sector001" race="xenon" owner="xenon" type="defence">
 			<quotas>
 				<quota galaxy="1" zone="1" />
 			</quotas>
@@ -958,7 +958,7 @@
 				</loadout>
 			</station>
 		</station>
-		<station id="xen_defence_cluster_47_sector001" race="xenon" owner="xenon" type="defence">
+		<station id="xenpo_defence_cluster_47_sector001" race="xenon" owner="xenon" type="defence">
 			<quotas>
 				<quota galaxy="1" zone="1" />
 			</quotas>
@@ -970,7 +970,7 @@
 				</loadout>
 			</station>
 		</station>
-		<station id="xen_defence_cluster_49_sector001" race="xenon" owner="xenon" type="defence">
+		<station id="xenpo_defence_cluster_49_sector001" race="xenon" owner="xenon" type="defence">
 			<quotas>
 				<quota galaxy="1" zone="1" />
 			</quotas>
@@ -982,7 +982,7 @@
 				</loadout>
 			</station>
 		</station>
-		<station id="xen_defence_cluster_50_sector001" race="xenon" owner="xenon" type="defence">
+		<station id="xenpo_defence_cluster_50_sector001" race="xenon" owner="xenon" type="defence">
 			<quotas>
 				<quota galaxy="1" zone="1" />
 			</quotas>
@@ -994,7 +994,7 @@
 				</loadout>
 			</station>
 		</station>
-		<station id="xen_defence_cluster_50_sector002" race="xenon" owner="xenon" type="defence">
+		<station id="xenpo_defence_cluster_50_sector002" race="xenon" owner="xenon" type="defence">
 			<quotas>
 				<quota galaxy="1" zone="1" />
 			</quotas>
@@ -1134,7 +1134,7 @@
 
 	<!-- Add Xenon defensive station -->
 	<add sel="/god/stations">
-		<station id="xen_defence_cluster_600_sector001" race="xenon" owner="xenon" type="defence">
+		<station id="xenpo_defence_cluster_600_sector001" race="xenon" owner="xenon" type="defence">
 			<quotas>
 				<quota galaxy="1" zone="1" />
 			</quotas>
@@ -1146,7 +1146,7 @@
 				</loadout>
 			</station>
 		</station>
-		<station id="xen_defence_cluster_601_sector001" race="xenon" owner="xenon" type="defence">
+		<station id="xenpo_defence_cluster_601_sector001" race="xenon" owner="xenon" type="defence">
 			<quotas>
 				<quota galaxy="1" zone="1" />
 			</quotas>
@@ -1158,7 +1158,7 @@
 				</loadout>
 			</station>
 		</station>
-		<station id="xen_defence_cluster_602_sector001" race="xenon" owner="xenon" type="defence">
+		<station id="xenpo_defence_cluster_602_sector001" race="xenon" owner="xenon" type="defence">
 			<quotas>
 				<quota galaxy="1" zone="1" />
 			</quotas>
@@ -1170,7 +1170,7 @@
 				</loadout>
 			</station>
 		</station>
-		<station id="xen_defence_cluster_603_sector001" race="xenon" owner="xenon" type="defence">
+		<station id="xenpo_defence_cluster_603_sector001" race="xenon" owner="xenon" type="defence">
 			<quotas>
 				<quota galaxy="1" zone="1" />
 			</quotas>
@@ -1182,7 +1182,7 @@
 				</loadout>
 			</station>
 		</station>
-		<station id="xen_defence_cluster_604_sector001" race="xenon" owner="xenon" type="defence">
+		<station id="xenpo_defence_cluster_604_sector001" race="xenon" owner="xenon" type="defence">
 			<quotas>
 				<quota galaxy="1" zone="1" />
 			</quotas>
@@ -1194,7 +1194,7 @@
 				</loadout>
 			</station>
 		</station>
-		<station id="xen_defence_cluster_605_sector001" race="xenon" owner="xenon" type="defence">
+		<station id="xenpo_defence_cluster_605_sector001" race="xenon" owner="xenon" type="defence">
 			<quotas>
 				<quota galaxy="1" zone="1" />
 			</quotas>
@@ -1206,7 +1206,7 @@
 				</loadout>
 			</station>
 		</station>
-		<station id="xen_defence_cluster_606_sector001" race="xenon" owner="xenon" type="defence">
+		<station id="xenpo_defence_cluster_606_sector001" race="xenon" owner="xenon" type="defence">
 			<quotas>
 				<quota galaxy="1" zone="1" />
 			</quotas>
@@ -1218,7 +1218,7 @@
 				</loadout>
 			</station>
 		</station>
-		<station id="xen_defence_cluster_607_sector001" race="xenon" owner="xenon" type="defence">
+		<station id="xenpo_defence_cluster_607_sector001" race="xenon" owner="xenon" type="defence">
 			<quotas>
 				<quota galaxy="1" zone="1" />
 			</quotas>
@@ -1230,7 +1230,7 @@
 				</loadout>
 			</station>
 		</station>
-		<station id="xen_defence_cluster_607_sector002" race="xenon" owner="xenon" type="defence">
+		<station id="xenpo_defence_cluster_607_sector002" race="xenon" owner="xenon" type="defence">
 			<quotas>
 				<quota galaxy="1" zone="1" />
 			</quotas>
@@ -1242,7 +1242,7 @@
 				</loadout>
 			</station>
 		</station>
-		<station id="xen_defence_cluster_607_sector003" race="xenon" owner="xenon" type="defence">
+		<station id="xenpo_defence_cluster_607_sector003" race="xenon" owner="xenon" type="defence">
 			<quotas>
 				<quota galaxy="1" zone="1" />
 			</quotas>
@@ -1254,7 +1254,7 @@
 				</loadout>
 			</station>
 		</station>
-		<station id="xen_defence_cluster_608_sector001" race="xenon" owner="xenon" type="defence">
+		<station id="xenpo_defence_cluster_608_sector001" race="xenon" owner="xenon" type="defence">
 			<quotas>
 				<quota galaxy="1" zone="1" />
 			</quotas>
@@ -1266,7 +1266,7 @@
 				</loadout>
 			</station>
 		</station>
-		<station id="xen_defence_cluster_609_sector001" race="xenon" owner="xenon" type="defence">
+		<station id="xenpo_defence_cluster_609_sector001" race="xenon" owner="xenon" type="defence">
 			<quotas>
 				<quota galaxy="1" zone="1" />
 			</quotas>
@@ -1313,7 +1313,7 @@
 
 	<!-- Add Xenon defensive station -->
 	<add sel="/god/stations">
-		<station id="xen_defence_cluster_500_sector001" race="xenon" owner="xenon" type="defence">
+		<station id="xenpo_defence_cluster_500_sector001" race="xenon" owner="xenon" type="defence">
 			<quotas>
 				<quota galaxy="1" zone="1" />
 			</quotas>
@@ -1325,7 +1325,7 @@
 				</loadout>
 			</station>
 		</station>
-		<station id="xen_defence_cluster_500_sector002" race="xenon" owner="xenon" type="defence">
+		<station id="xenpo_defence_cluster_500_sector002" race="xenon" owner="xenon" type="defence">
 			<quotas>
 				<quota galaxy="1" zone="1" />
 			</quotas>
@@ -1337,7 +1337,7 @@
 				</loadout>
 			</station>
 		</station>
-		<station id="xen_defence_cluster_500_sector003" race="xenon" owner="xenon" type="defence">
+		<station id="xenpo_defence_cluster_500_sector003" race="xenon" owner="xenon" type="defence">
 			<quotas>
 				<quota galaxy="1" zone="1" />
 			</quotas>
@@ -1349,7 +1349,7 @@
 				</loadout>
 			</station>
 		</station>
-		<station id="xen_defence_cluster_501_sector001" race="xenon" owner="xenon" type="defence">
+		<station id="xenpo_defence_cluster_501_sector001" race="xenon" owner="xenon" type="defence">
 			<quotas>
 				<quota galaxy="1" zone="1" />
 			</quotas>
@@ -1361,7 +1361,7 @@
 				</loadout>
 			</station>
 		</station>
-		<station id="xen_defence_cluster_502_sector001" race="xenon" owner="xenon" type="defence">
+		<station id="xenpo_defence_cluster_502_sector001" race="xenon" owner="xenon" type="defence">
 			<quotas>
 				<quota galaxy="1" zone="1" />
 			</quotas>
@@ -1373,7 +1373,7 @@
 				</loadout>
 			</station>
 		</station>
-		<station id="xen_defence_cluster_503_sector001" race="xenon" owner="xenon" type="defence">
+		<station id="xenpo_defence_cluster_503_sector001" race="xenon" owner="xenon" type="defence">
 			<quotas>
 				<quota galaxy="1" zone="1" />
 			</quotas>
@@ -1385,7 +1385,7 @@
 				</loadout>
 			</station>
 		</station>
-		<station id="xen_defence_cluster_504_sector001" race="xenon" owner="xenon" type="defence">
+		<station id="xenpo_defence_cluster_504_sector001" race="xenon" owner="xenon" type="defence">
 			<quotas>
 				<quota galaxy="1" zone="1" />
 			</quotas>
@@ -1439,7 +1439,7 @@
 
 	<!-- Add Xenon defensive station -->
 	<add sel="/god/stations">
-		<station id="xen_defence_cluster_113_sector001" race="xenon" owner="xenon" type="defence">
+		<station id="xenpo_defence_cluster_113_sector001" race="xenon" owner="xenon" type="defence">
 			<quotas>
 				<quota galaxy="1" zone="1" />
 			</quotas>
@@ -1451,7 +1451,7 @@
 				</loadout>
 			</station>
 		</station>
-		<station id="xen_defence_cluster_114_sector001" race="xenon" owner="xenon" type="defence">
+		<station id="xenpo_defence_cluster_114_sector001" race="xenon" owner="xenon" type="defence">
 			<quotas>
 				<quota galaxy="1" zone="1" />
 			</quotas>
@@ -1463,7 +1463,7 @@
 				</loadout>
 			</station>
 		</station>
-		<station id="xen_defence_cluster_115_sector001" race="xenon" owner="xenon" type="defence">
+		<station id="xenpo_defence_cluster_115_sector001" race="xenon" owner="xenon" type="defence">
 			<quotas>
 				<quota galaxy="1" zone="1" />
 			</quotas>
@@ -1605,7 +1605,7 @@
 
 	<!-- Add Xenon defensive station -->
 	<add sel="/god/stations">
-		<station id="xen_defence_cluster_400_sector001" race="xenon" owner="xenon" type="defence">
+		<station id="xenpo_defence_cluster_400_sector001" race="xenon" owner="xenon" type="defence">
 			<quotas>
 				<quota galaxy="1" zone="1" />
 			</quotas>
@@ -1617,7 +1617,7 @@
 				</loadout>
 			</station>
 		</station>
-		<station id="xen_defence_cluster_401_sector001" race="xenon" owner="xenon" type="defence">
+		<station id="xenpo_defence_cluster_401_sector001" race="xenon" owner="xenon" type="defence">
 			<quotas>
 				<quota galaxy="1" zone="1" />
 			</quotas>
@@ -1629,7 +1629,7 @@
 				</loadout>
 			</station>
 		</station>
-		<station id="xen_defence_cluster_402_sector001" race="xenon" owner="xenon" type="defence">
+		<station id="xenpo_defence_cluster_402_sector001" race="xenon" owner="xenon" type="defence">
 			<quotas>
 				<quota galaxy="1" zone="1" />
 			</quotas>
@@ -1641,7 +1641,7 @@
 				</loadout>
 			</station>
 		</station>
-		<station id="xen_defence_cluster_403_sector001" race="xenon" owner="xenon" type="defence">
+		<station id="xenpo_defence_cluster_403_sector001" race="xenon" owner="xenon" type="defence">
 			<quotas>
 				<quota galaxy="1" zone="1" />
 			</quotas>
@@ -1653,7 +1653,7 @@
 				</loadout>
 			</station>
 		</station>
-		<station id="xen_defence_cluster_404_sector001" race="xenon" owner="xenon" type="defence">
+		<station id="xenpo_defence_cluster_404_sector001" race="xenon" owner="xenon" type="defence">
 			<quotas>
 				<quota galaxy="1" zone="1" />
 			</quotas>
@@ -1665,7 +1665,7 @@
 				</loadout>
 			</station>
 		</station>
-		<station id="xen_defence_cluster_405_sector001" race="xenon" owner="xenon" type="defence">
+		<station id="xenpo_defence_cluster_405_sector001" race="xenon" owner="xenon" type="defence">
 			<quotas>
 				<quota galaxy="1" zone="1" />
 			</quotas>
@@ -1677,7 +1677,7 @@
 				</loadout>
 			</station>
 		</station>
-		<station id="xen_defence_cluster_406_sector001" race="xenon" owner="xenon" type="defence">
+		<station id="xenpo_defence_cluster_406_sector001" race="xenon" owner="xenon" type="defence">
 			<quotas>
 				<quota galaxy="1" zone="1" />
 			</quotas>
@@ -1689,7 +1689,7 @@
 				</loadout>
 			</station>
 		</station>
-		<station id="xen_defence_cluster_407_sector001" race="xenon" owner="xenon" type="defence">
+		<station id="xenpo_defence_cluster_407_sector001" race="xenon" owner="xenon" type="defence">
 			<quotas>
 				<quota galaxy="1" zone="1" />
 			</quotas>
@@ -1701,7 +1701,7 @@
 				</loadout>
 			</station>
 		</station>
-		<station id="xen_defence_cluster_408_sector001" race="xenon" owner="xenon" type="defence">
+		<station id="xenpo_defence_cluster_408_sector001" race="xenon" owner="xenon" type="defence">
 			<quotas>
 				<quota galaxy="1" zone="1" />
 			</quotas>
@@ -1713,7 +1713,7 @@
 				</loadout>
 			</station>
 		</station>
-		<station id="xen_defence_cluster_408_sector002" race="xenon" owner="xenon" type="defence">
+		<station id="xenpo_defence_cluster_408_sector002" race="xenon" owner="xenon" type="defence">
 			<quotas>
 				<quota galaxy="1" zone="1" />
 			</quotas>
@@ -1725,7 +1725,7 @@
 				</loadout>
 			</station>
 		</station>
-		<station id="xen_defence_cluster_409_sector001" race="xenon" owner="xenon" type="defence">
+		<station id="xenpo_defence_cluster_409_sector001" race="xenon" owner="xenon" type="defence">
 			<quotas>
 				<quota galaxy="1" zone="1" />
 			</quotas>
@@ -1737,7 +1737,7 @@
 				</loadout>
 			</station>
 		</station>
-		<station id="xen_defence_cluster_410_sector001" race="xenon" owner="xenon" type="defence">
+		<station id="xenpo_defence_cluster_410_sector001" race="xenon" owner="xenon" type="defence">
 			<quotas>
 				<quota galaxy="1" zone="1" />
 			</quotas>
@@ -1749,7 +1749,7 @@
 				</loadout>
 			</station>
 		</station>
-		<station id="xen_defence_cluster_411_sector001" race="xenon" owner="xenon" type="defence">
+		<station id="xenpo_defence_cluster_411_sector001" race="xenon" owner="xenon" type="defence">
 			<quotas>
 				<quota galaxy="1" zone="1" />
 			</quotas>
@@ -1761,7 +1761,7 @@
 				</loadout>
 			</station>
 		</station>
-		<station id="xen_defence_cluster_412_sector001" race="xenon" owner="xenon" type="defence">
+		<station id="xenpo_defence_cluster_412_sector001" race="xenon" owner="xenon" type="defence">
 			<quotas>
 				<quota galaxy="1" zone="1" />
 			</quotas>
@@ -1773,7 +1773,7 @@
 				</loadout>
 			</station>
 		</station>
-		<station id="xen_defence_cluster_413_sector001" race="xenon" owner="xenon" type="defence">
+		<station id="xenpo_defence_cluster_413_sector001" race="xenon" owner="xenon" type="defence">
 			<quotas>
 				<quota galaxy="1" zone="1" />
 			</quotas>
@@ -1785,7 +1785,7 @@
 				</loadout>
 			</station>
 		</station>
-		<station id="xen_defence_cluster_414_sector001" race="xenon" owner="xenon" type="defence">
+		<station id="xenpo_defence_cluster_414_sector001" race="xenon" owner="xenon" type="defence">
 			<quotas>
 				<quota galaxy="1" zone="1" />
 			</quotas>
@@ -1797,7 +1797,7 @@
 				</loadout>
 			</station>
 		</station>
-		<station id="xen_defence_cluster_415_sector001" race="xenon" owner="xenon" type="defence">
+		<station id="xenpo_defence_cluster_415_sector001" race="xenon" owner="xenon" type="defence">
 			<quotas>
 				<quota galaxy="1" zone="1" />
 			</quotas>
@@ -1809,7 +1809,7 @@
 				</loadout>
 			</station>
 		</station>
-		<station id="xen_defence_cluster_416_sector001" race="xenon" owner="xenon" type="defence">
+		<station id="xenpo_defence_cluster_416_sector001" race="xenon" owner="xenon" type="defence">
 			<quotas>
 				<quota galaxy="1" zone="1" />
 			</quotas>
@@ -1821,7 +1821,7 @@
 				</loadout>
 			</station>
 		</station>
-		<station id="xen_defence_cluster_416_sector002" race="xenon" owner="xenon" type="defence">
+		<station id="xenpo_defence_cluster_416_sector002" race="xenon" owner="xenon" type="defence">
 			<quotas>
 				<quota galaxy="1" zone="1" />
 			</quotas>
@@ -1833,7 +1833,7 @@
 				</loadout>
 			</station>
 		</station>
-		<station id="xen_defence_cluster_417_sector001" race="xenon" owner="xenon" type="defence">
+		<station id="xenpo_defence_cluster_417_sector001" race="xenon" owner="xenon" type="defence">
 			<quotas>
 				<quota galaxy="1" zone="1" />
 			</quotas>
@@ -1845,7 +1845,7 @@
 				</loadout>
 			</station>
 		</station>
-		<station id="xen_defence_cluster_418_sector001" race="xenon" owner="xenon" type="defence">
+		<station id="xenpo_defence_cluster_418_sector001" race="xenon" owner="xenon" type="defence">
 			<quotas>
 				<quota galaxy="1" zone="1" />
 			</quotas>
@@ -1857,7 +1857,7 @@
 				</loadout>
 			</station>
 		</station>
-		<station id="xen_defence_cluster_419_sector001" race="xenon" owner="xenon" type="defence">
+		<station id="xenpo_defence_cluster_419_sector001" race="xenon" owner="xenon" type="defence">
 			<quotas>
 				<quota galaxy="1" zone="1" />
 			</quotas>
@@ -1869,7 +1869,7 @@
 				</loadout>
 			</station>
 		</station>
-		<station id="xen_defence_cluster_420_sector001" race="xenon" owner="xenon" type="defence">
+		<station id="xenpo_defence_cluster_420_sector001" race="xenon" owner="xenon" type="defence">
 			<quotas>
 				<quota galaxy="1" zone="1" />
 			</quotas>
@@ -1881,7 +1881,7 @@
 				</loadout>
 			</station>
 		</station>
-		<station id="xen_defence_cluster_421_sector001" race="xenon" owner="xenon" type="defence">
+		<station id="xenpo_defence_cluster_421_sector001" race="xenon" owner="xenon" type="defence">
 			<quotas>
 				<quota galaxy="1" zone="1" />
 			</quotas>
@@ -1893,7 +1893,7 @@
 				</loadout>
 			</station>
 		</station>
-		<station id="xen_defence_cluster_422_sector001" race="xenon" owner="xenon" type="defence">
+		<station id="xenpo_defence_cluster_422_sector001" race="xenon" owner="xenon" type="defence">
 			<quotas>
 				<quota galaxy="1" zone="1" />
 			</quotas>
@@ -1905,7 +1905,7 @@
 				</loadout>
 			</station>
 		</station>
-		<station id="xen_defence_cluster_423_sector001" race="xenon" owner="xenon" type="defence">
+		<station id="xenpo_defence_cluster_423_sector001" race="xenon" owner="xenon" type="defence">
 			<quotas>
 				<quota galaxy="1" zone="1" />
 			</quotas>
@@ -1917,7 +1917,7 @@
 				</loadout>
 			</station>
 		</station>
-		<station id="xen_defence_cluster_423_sector002" race="xenon" owner="xenon" type="defence">
+		<station id="xenpo_defence_cluster_423_sector002" race="xenon" owner="xenon" type="defence">
 			<quotas>
 				<quota galaxy="1" zone="1" />
 			</quotas>
@@ -1929,7 +1929,7 @@
 				</loadout>
 			</station>
 		</station>
-		<station id="xen_defence_cluster_424_sector001" race="xenon" owner="xenon" type="defence">
+		<station id="xenpo_defence_cluster_424_sector001" race="xenon" owner="xenon" type="defence">
 			<quotas>
 				<quota galaxy="1" zone="1" />
 			</quotas>
@@ -1941,7 +1941,7 @@
 				</loadout>
 			</station>
 		</station>
-		<station id="xen_defence_cluster_424_sector002" race="xenon" owner="xenon" type="defence">
+		<station id="xenpo_defence_cluster_424_sector002" race="xenon" owner="xenon" type="defence">
 			<quotas>
 				<quota galaxy="1" zone="1" />
 			</quotas>
@@ -1953,7 +1953,7 @@
 				</loadout>
 			</station>
 		</station>
-		<station id="xen_defence_cluster_425_sector001" race="xenon" owner="xenon" type="defence">
+		<station id="xenpo_defence_cluster_425_sector001" race="xenon" owner="xenon" type="defence">
 			<quotas>
 				<quota galaxy="1" zone="1" />
 			</quotas>
