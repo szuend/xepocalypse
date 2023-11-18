@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<diff xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<!-- Argone Federation -->
+	<remove sel="/god/stations/station[@id='shipyard_argon_01']"/>
+	<remove sel="/god/stations/station[@id='wharf_argon_01']"/>
+	<remove sel="/god/stations/station[@id='equipmentdock_argon_01']"/>
+	<remove sel="/god/stations/station[@id='equipmentdock_argon_02']"/>
+	<remove sel="/god/stations/station[@id='tradestation_argon_01']"/>
+	<remove sel="/god/stations/station[@id='arg_defence_cluster_06_sector001']"/>
+	<remove sel="/god/stations/station[@id='arg_defence_cluster_06_sector002']"/>
+	<remove sel="/god/stations/station[@id='arg_defence_cluster_07_sector001']"/>
+	<remove sel="/god/stations/station[@id='arg_defence_cluster_08_sector001']"/>
+	<remove sel="/god/stations/station[@id='arg_defence_cluster_29_sector002']"/>
+	<remove sel="/god/stations/station[@id='arg_defence_cluster_30_sector001']"/>
+	<remove sel="/god/stations/station[@id='arg_defence_cluster_46_sector001']"/>
+	<!-- Antigone Republic -->
+	<remove sel="/god/stations/station[@id='ant_defence_cluster_13_sector001']"/>
+	<!-- Antigone Economy -->
+	<remove sel="/god/products/product[@id='ant_advancedcomposites']"/>
+	<remove sel="/god/products/product[@id='ant_advancedelectronics']"/>
+
+	<!-- Add Xenon defensive station -->
+	<add sel="/god/stations">
+		<!-- Argon Prime -->
+		<station id="xen_defence_cluster_14_sector001_zone002" race="xenon" owner="xenon" type="defence">
+      <quotas>
+        <quota galaxy="1" zone="1" />
+      </quotas>
+      <location class="zone" macro="zone002_cluster_14_sector001_macro" matchextension="false" />
+      <station>
+        <select faction="xenon" tags="[defence]" />
+        <loadout>
+          <level exact="1.0" />
+        </loadout>
+      </station>
+    </station>
+		<station id="xen_defence_cluster_14_sector001_zone004" race="xenon" owner="xenon" type="defence">
+      <quotas>
+        <quota galaxy="1" zone="1" />
+      </quotas>
+      <location class="zone" macro="zone004_cluster_14_sector001_macro" matchextension="false" />
+      <station>
+        <select faction="xenon" tags="[defence]" />
+        <loadout>
+          <level exact="1.0" />
+        </loadout>
+      </station>
+    </station>
+		<!-- Black Hole Sun IV -->
+		<station id="xen_defence_cluster_06_sector001" race="xenon" owner="xenon" type="defence">
+      <quotas>
+        <quota galaxy="1" zone="1" />
+      </quotas>
+      <location class="zone" macro="zone001_cluster_06_sector001_macro" matchextension="false" />
+      <station>
+        <select faction="xenon" tags="[defence]" />
+        <loadout>
+          <level exact="1.0" />
+        </loadout>
+      </station>
+    </station>
+		<station id="xen_defence_cluster_06_sector002" race="xenon" owner="xenon" type="defence">
+      <quotas>
+        <quota galaxy="1" zone="1" />
+      </quotas>
+      <location class="zone" macro="zone001_cluster_06_sector002_macro" matchextension="false" />
+      <station>
+        <select faction="xenon" tags="[defence]" />
+        <loadout>
+          <level exact="1.0" />
+        </loadout>
+      </station>
+    </station>
+	</add>
+</diff>
