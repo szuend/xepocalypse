@@ -13,8 +13,87 @@
 	<remove sel="/god/stations/station[@id='arg_defence_cluster_29_sector002']"/>
 	<remove sel="/god/stations/station[@id='arg_defence_cluster_30_sector001']"/>
 	<remove sel="/god/stations/station[@id='arg_defence_cluster_46_sector001']"/>
+
 	<!-- Antigone Republic -->
+	<remove sel="/god/stations/station[@id='shipyard_antigone']"/>
+	<remove sel="/god/stations/station[@id='wharf_antigone']"/>
+	<remove sel="/god/stations/station[@id='equipmentdock_antigone']"/>
+	<remove sel="/god/stations/station[@id='tradestation_antigone']"/>
 	<remove sel="/god/stations/station[@id='ant_defence_cluster_13_sector001']"/>
+	<remove sel="/god/stations/station[@id='ant_defence_cluster_27_sector001']"/>
+	<remove sel="/god/stations/station[@id='ant_defence_cluster_40_sector001']"/>
+	<remove sel="/god/stations/station[@id='ant_defence_cluster_41_sector001']"/>
+
+	<!-- Hatikvah Free League -->
+	<remove sel="/god/stations/station[@id='tradestation_hatikvah_01']"/>
+	<remove sel="/god/stations/station[@id='freeport_hatikvah_01']"/>
+	<remove sel="/god/stations/station[@id='freeport_hatikvah_02']"/>
+	<remove sel="/god/stations/station[@id='freeport_hatikvah_03']"/>
+	<remove sel="/god/stations/station[@id='hat_defence_cluster_29_sector001']"/>
+
+	<!-- Godrealm of the Paranid -->
+	<remove sel="/god/stations/station[@id='shipyard_paranid']"/>
+	<remove sel="/god/stations/station[@id='wharf_paranid']"/>
+	<remove sel="/god/stations/station[@id='equipmentdock_paranid']"/>
+	<remove sel="/god/stations/station[@id='tradestation_paranid']"/>
+	<remove sel="/god/stations/station[@id='par_defence_cluster_10_sector001']"/>
+	<remove sel="/god/stations/station[@id='par_defence_cluster_18_sector001']"/>
+	<remove sel="/god/stations/station[@id='par_defence_cluster_22_sector001']"/>
+	<remove sel="/god/stations/station[@id='par_defence_cluster_23_sector001']"/>
+	<remove sel="/god/stations/station[@id='par_defence_cluster_37_sector001']"/>
+	<remove sel="/god/stations/station[@id='par_defence_cluster_38_sector001']"/>
+	<remove sel="/god/stations/station[@id='par_defence_cluster_47_sector001']"/>
+
+	<!-- Holy Order of the Pontifex -->
+	<remove sel="/god/stations/station[@id='shipyard_holyorder']"/>
+	<remove sel="/god/stations/station[@id='wharf_holyorder']"/>
+	<remove sel="/god/stations/station[@id='equipmentdock_holyorder']"/>
+	<remove sel="/god/stations/station[@id='tradestation_holyorder']"/>
+	<remove sel="/god/stations/station[@id='hol_defence_cluster_11_sector001']"/>
+	<remove sel="/god/stations/station[@id='hol_defence_cluster_12_sector001']"/>
+	<remove sel="/god/stations/station[@id='hol_defence_cluster_24_sector001']"/>
+	<remove sel="/god/stations/station[@id='hol_defence_cluster_35_sector001']"/>
+	<remove sel="/god/stations/station[@id='hol_defence_cluster_36_sector001']"/>
+
+	<!-- Alliance of the Word -->
+	<remove sel="/god/stations/station[@id='shipyard_alliance']"/>
+	<remove sel="/god/stations/station[@id='wharf_alliance']"/>
+
+	<!-- Teladi Company -->
+	<remove sel="/god/stations/station[@id='shipyard_teladi_01']"/>
+	<remove sel="/god/stations/station[@id='wharf_teladi_01']"/>
+	<remove sel="/god/stations/station[@id='equipmentdock_teladi_01']"/>
+	<remove sel="/god/stations/station[@id='ringstation_01']"/>
+	<remove sel="/god/stations/station[@id='ringstation_02']"/>
+	<remove sel="/god/stations/station[@id='ringstation_03']"/>
+	<remove sel="/god/stations/station[@id='tel_defence_cluster_01_sector001']"/>
+	<remove sel="/god/stations/station[@id='tel_defence_cluster_01_sector002']"/>
+	<remove sel="/god/stations/station[@id='tel_defence_cluster_01_sector003']"/>
+	<remove sel="/god/stations/station[@id='tel_defence_cluster_02_sector001']"/>
+	<remove sel="/god/stations/station[@id='tel_defence_cluster_03_sector001']"/>
+	<remove sel="/god/stations/station[@id='tel_defence_cluster_05_sector001']"/>
+	<remove sel="/god/stations/station[@id='tel_defence_cluster_09_sector001']"/>
+	<remove sel="/god/stations/station[@id='tel_defence_cluster_15_sector001']"/>
+	<remove sel="/god/stations/station[@id='tel_defence_cluster_15_sector002']"/>
+	<remove sel="/god/stations/station[@id='tel_defence_cluster_19_sector001']"/>
+	<remove sel="/god/stations/station[@id='tel_defence_cluster_19_sector002']"/>
+	<remove sel="/god/stations/station[@id='tel_defence_cluster_20_sector001']"/>
+	<remove sel="/god/stations/station[@id='tel_defence_cluster_34_sector001']"/>
+	<remove sel="/god/stations/station[@id='tel_defence_cluster_39_sector001']"/>
+	<remove sel="/god/stations/station[@id='tel_defence_cluster_42_sector001']"/>
+	<remove sel="/god/stations/station[@id='tel_defence_cluster_43_sector001']"/>
+	<remove sel="/god/stations/station[@id='tel_processing']"/>
+
+	<!-- Ministry of Finance -->
+	<remove sel="/god/stations/station[@id='shipyard_ministry_01']"/>
+	<remove sel="/god/stations/station[@id='wharf_ministry_01']"/>
+	<remove sel="/god/stations/station[@id='equipmentdock_ministry_01']"/>
+
+	<!-- Scale Plate Pact -->
+	<remove sel="/god/stations/station[@id='piratedock_scaleplate_01']"/>
+	<remove sel="/god/stations/station[@id='piratebase_scaleplate_01']"/>
+	<remove sel="/god/stations/station[@id='piratebase_scaleplate_02']"/>
+
 	<!-- Antigone Economy -->
 	<remove sel="/god/products/product[@id='ant_advancedcomposites']"/>
 	<remove sel="/god/products/product[@id='ant_advancedelectronics']"/>
