@@ -1008,6 +1008,76 @@
 		</station>		
 	</add>
 
+	<!-- Add 10 defensive stations to Getsu Fune -->
+	<!-- (luckily Getsu Fune already has 5 zones so we add them there) -->
+	<add sel="/god/stations">
+		<station id="ter_defence_cluster_48_sector001_zone001" race="terran" owner="terran" type="factory">
+      <quotas>
+        <quota galaxy="2" sector="2" zone="2" />
+      </quotas>
+      <location class="zone" macro="zone001_cluster_48_sector001_macro" matchextension="false" />
+      <station>
+        <select faction="terran" tags="[defence]" />
+        <loadout>
+          <level exact="1.0" />
+          <variation exact="0"/>
+        </loadout>
+      </station>
+    </station>
+		<station id="ter_defence_cluster_48_sector001_zone002" race="terran" owner="terran" type="factory">
+      <quotas>
+        <quota galaxy="2" sector="2" zone="2" />
+      </quotas>
+      <location class="zone" macro="zone002_cluster_48_sector001_macro" matchextension="false" />
+      <station>
+        <select faction="terran" tags="[defence]" />
+        <loadout>
+          <level exact="1.0" />
+          <variation exact="0"/>
+        </loadout>
+      </station>
+    </station>
+		<station id="ter_defence_cluster_48_sector001_zone003" race="terran" owner="terran" type="factory">
+      <quotas>
+        <quota galaxy="2" sector="2" zone="2" />
+      </quotas>
+      <location class="zone" macro="zone003_cluster_48_sector001_macro" matchextension="false" />
+      <station>
+        <select faction="terran" tags="[defence]" />
+        <loadout>
+          <level exact="1.0" />
+          <variation exact="0"/>
+        </loadout>
+      </station>
+    </station>
+		<station id="ter_defence_cluster_48_sector001_zone004" race="terran" owner="terran" type="factory">
+      <quotas>
+        <quota galaxy="2" sector="2" zone="2" />
+      </quotas>
+      <location class="zone" macro="zone004_cluster_48_sector001_macro" matchextension="false" />
+      <station>
+        <select faction="terran" tags="[defence]" />
+        <loadout>
+          <level exact="1.0" />
+          <variation exact="0"/>
+        </loadout>
+      </station>
+    </station>
+		<station id="ter_defence_cluster_48_sector001_zone005" race="terran" owner="terran" type="factory">
+      <quotas>
+        <quota galaxy="2" sector="2" zone="2" />
+      </quotas>
+      <location class="zone" macro="zone005_cluster_48_sector001_macro" matchextension="false" />
+      <station>
+        <select faction="terran" tags="[defence]" />
+        <loadout>
+          <level exact="1.0" />
+          <variation exact="0"/>
+        </loadout>
+      </station>
+    </station>
+	</add>
+
 	<!-- ============================================================================================== -->
 	<!--                                           Kingdom End                                          -->
 	<!-- ============================================================================================== -->
