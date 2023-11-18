@@ -7,4 +7,6 @@ re-take the universe and help re-settle the races that have sought refuge on the
 
 ## Changes
 
-* Disabled gate from Neptung to Brennan's Triumph
+* Xenon own all sectors except Sol and Getsu Fune.
+* Each non-Sol sector has a Xenon Defense Platform at the start.
+* Disabled the gate from Neptung to Brennan's Triumph.
