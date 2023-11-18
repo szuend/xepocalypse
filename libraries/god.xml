@@ -982,18 +982,6 @@
 				</loadout>
 			</station>
 		</station>
-		<station id="xen_defence_cluster_48_sector001" race="xenon" owner="xenon" type="defence">
-			<quotas>
-				<quota galaxy="1" zone="1" />
-			</quotas>
-			<location class="zone" macro="zone001_cluster_48_sector001_macro" matchextension="false" />
-			<station>
-				<select faction="xenon" tags="[defence]" />
-				<loadout>
-					<level exact="1.0" />
-				</loadout>
-			</station>
-		</station>
 		<station id="xen_defence_cluster_50_sector001" race="xenon" owner="xenon" type="defence">
 			<quotas>
 				<quota galaxy="1" zone="1" />

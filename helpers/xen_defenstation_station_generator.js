@@ -64,7 +64,7 @@ const MAIN_ZONES = [
 	"zone001_cluster_46_sector001_macro",
 	"zone001_cluster_47_sector001_macro",
 	"zone001_cluster_49_sector001_macro",
-	"zone001_cluster_48_sector001_macro",
+	// "zone001_cluster_48_sector001_macro",  // Skip Getsu Fune, Terran hold the defense there.
 	"zone001_cluster_50_sector001_macro",
 	"zone001_cluster_50_sector002_macro",
 ];
