@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<diff>
+	<!-- Remove all the existing game starts. They don't work with this universe -->
+	<remove sel="/gamestarts/gamestart[@id='x4ep1_gamestart_boron1']"/>
+	<remove sel="/gamestarts/gamestart[@id='x4ep1_gamestart_boron2']"/>
+	<remove sel="/gamestarts/gamestart[@id='x4ep1_gamestart_pirate1']"/>
+	<remove sel="/gamestarts/gamestart[@id='x4ep1_gamestart_pirate2']"/>
+	<remove sel="/gamestarts/gamestart[@id='x4ep1_gamestart_terran1']"/>
+	<remove sel="/gamestarts/gamestart[@id='x4ep1_gamestart_terran2']"/>
+	<remove sel="/gamestarts/gamestart[@id='x4ep1_gamestart_split1']"/>
+	<remove sel="/gamestarts/gamestart[@id='x4ep1_gamestart_split2']"/>
+	<remove sel="/gamestarts/gamestart[@id='x4ep1_gamestart_tutorial']"/>
+	<remove sel="/gamestarts/gamestart[@id='x4ep1_gamestart_trade']"/>
+	<remove sel="/gamestarts/gamestart[@id='x4ep1_gamestart_fight']"/>
+	<remove sel="/gamestarts/gamestart[@id='x4ep1_gamestart_discover']"/>
+	<remove sel="/gamestarts/gamestart[@id='x4ep1_gamestart_scientist']"/>
+	<remove sel="/gamestarts/gamestart[@id='x4ep1_gamestart_boso']"/>
+
+	<add sel="/gamestarts">
+		<gamestart id="xepo_gamestart_terran1"
+		           name="Xepocalypse"
+							 description="The universe is already overrun by the Xenon.
+Only the Terran Protectorate is holding on. They shut down the gate from Neptun to
+Brennan's Triumph and built a last line of defense in Getsu Fune,
+hoping against all hope that they can	re-take the universe and help re-settle
+the races that have sought refuge on the planets of Sol."
+							 image="gamestart_terran1"
+							 group="6">
+			<info>
+				<!-- Character Name -->
+				<!-- Name, Gender, Location, Starting Ship(,2)/Ships(,10), Cash, Property -->
+				<item name="@name" />
+				<item name="@player" />
+				<item name="{1021,9}"   value="{1021,51}" />
+				<item />
+				<item name="{1021,1}"   value="{1021,903}" />
+				<item />
+        <item name="{1021,2}"   value="{1021,904}" />
+        <item name="{1021,3}"   value="{1021,905}" />
+        <item name="{1021,5}"   value="{1021,41}" />
+			</info>
+			<type name="{1021,94}" description="{1021,95}" />
+			<location galaxy="xu_ep2_universe_macro" sector="cluster_101_sector001_macro">
+        <position x="100000" z="50000"/>
+        <rotation yaw="0.0" pitch="0.0" roll="0.0"/>
+      </location>
+			<player macro="character_player_terran_gamestart1_macro" money="15000" name="{1021,902}">
+        <ship macro="ship_ter_s_fighter_01_a_macro">
+          <loadout>
+            <macros>
+              <engine macro="engine_ter_s_allround_01_mk1_macro" path="../con_engine_01"/>
+              <weapon macro="weapon_ter_s_laser_01_mk1_macro" path="../con_weapon_03"/>
+              <weapon macro="weapon_ter_s_laser_01_mk1_macro" path="../con_weapon_01"/>
+              <weapon macro="weapon_ter_s_laser_01_mk1_macro" path="../con_weapon_02"/>
+              <shield macro="shield_ter_s_standard_01_mk2_macro" path="../con_shield_01"/>
+            </macros>
+            <ammunition>
+              <ammunition macro="env_deco_nav_beacon_t1_macro" exact="5"/>
+              <ammunition macro="eq_arg_satellite_01_macro" exact="5"/>
+              <ammunition macro="eq_arg_resourceprobe_01_macro" exact="5"/>
+            </ammunition>
+            <software>
+              <software ware="software_flightassistmk1"/>
+              <software ware="software_scannerlongrangemk1"/>
+              <software ware="software_scannerobjectmk1"/>
+              <software ware="software_targetmk1"/>
+            </software>
+            <virtualmacros>
+              <thruster macro="thruster_gen_s_allround_01_mk1_macro"/>
+            </virtualmacros>
+          </loadout>
+        </ship>
+        <inventory>
+          <ware ware="weapon_gen_spacesuit_repairlaser_01_mk1" amount="1" />
+          <ware ware="software_scannerobjectmk3" amount="1" />
+        </inventory>
+        <blueprints>
+          <ware ware="clothingmod_0001" />
+          <ware ware="clothingmod_0002" />
+          <ware ware="module_ter_prod_energycells_01" />
+          <ware ware="module_ter_dock_m_01_hightech" />
+          <ware ware="module_ter_pier_01" />
+          <ware ware="module_ter_stor_container_s_01" />
+          <ware ware="module_ter_conn_base_01" />
+          <ware ware="module_ter_conn_cross_01" />
+          <ware ware="module_ter_conn_vertical_01" />          
+          <ware ware="paintmod_0006"/>
+          <ware ware="paintmod_0048"/>
+          <ware ware="paintmod_0049"/>
+          <ware ware="paintmod_0050"/>
+          <ware ware="paintmod_0097"/>
+          <ware ware="paintmod_0098"/>
+          <ware ware="paintmod_0099"/>
+          <ware ware="paintmod_0100"/>
+        </blueprints>
+        <research>
+          <ware ware="research_radioreceiver" />
+          <ware ware="research_sensorbooster" />
+          <ware ware="research_tradeinterface" />
+        </research>
+        <encyclopedia>
+          <entry type="warebasket" ref="research_gamestart_common"/>
+        </encyclopedia>
+        <theme paint="painttheme_player_01" />
+      </player>
+			<universe>
+        <factions>
+					<!-- We are neutral with all factions seeking refuge in Sol -->
+          <relations>
+            <relation faction="terran" otherfaction="player"   relation="0.010001"/>
+            <relation faction="pioneers" otherfaction="player" relation="0.003201"/>
+            <relation faction="antigone" otherfaction="player" relation="0.003201"/>
+            <relation faction="argon" otherfaction="player" relation="0.003201"/>
+						<relation faction="boron" otherfaction="player" relation="0.003201"/>
+            <relation faction="freesplit" otherfaction="player" relation="0.003201"/>
+            <relation faction="hatikvah" otherfaction="player" relation="0.003201"/>
+            <relation faction="holyorder" otherfaction="player" relation="0.003201"/>
+            <relation faction="ministry" otherfaction="player" relation="0.003201"/>
+            <relation faction="paranid" otherfaction="player" relation="0.003201"/>
+            <relation faction="split" otherfaction="player" relation="0.003201"/>
+            <relation faction="teladi" otherfaction="player" relation="0.003201"/>
+          </relations>
+        </factions>
+      </universe>
+			<custom>
+        <item value="player" state="standard" list="character_player_terran_gamestart1_macro character_player_terran_gamestart2_macro" />
+        <item value="playerfemale" state="standard" />
+        <item value="playername" state="standard" />
+      </custom>
+		</gamestart>	
+	</add>
+</diff>
