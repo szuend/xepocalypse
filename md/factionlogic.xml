@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<diff>
+	<!-- Enable debug logs -->
+	<replace sel="//library[@name='Manager']/params/param[@name='DebugChance']/@default">1</replace>
+
+	<!-- We replace the "CreateNewFactionRepresentative" with our own version: -->
+	<!-- It's nearly identical but we fall back to add the representative to the vault if -->
+	<!-- no other suitable location was found -->
+	<replace sel="//cue[@name='CreateNewFactionRepresentative']">
+		<cue name="CreateNewFactionRepresentative" instantiate="true">
+			<conditions>
+				<event_cue_signalled />
+			</conditions>
+			<actions>
+				<debug_text text="'Check if a new faction representative for ' + $Faction.name + ' is needed'" chance="$DebugChance" />
+				<do_if value="not $Faction.representative">
+					<set_value name="$Representative" exact="null"/>
+					<debug_text text="'No faction representative exists for ' + $Faction.name" chance="$DebugChance" />
+					<do_if value="@md.$FactionData.{$Faction}.$Headquarters.isoperational">
+						<create_representative_actor name="$Representative" station="md.$FactionData.{$Faction}.$Headquarters" faction="$Faction" />
+					</do_if>
+					<do_else>
+						<!-- Attempt to add the representative to the Vault -->
+						<debug_text text="'There is no Faction HQ on which to generate the Faction Representative for ' + $Faction.name + '. Attempt to add it to the vault'" filter="error" />
+						<find_sector macro="macro.cluster_101_sector001_macro"  required="true" name="$Sector"/>
+						<find_station_by_true_owner name="$Station" space="$Sector" faction="faction.alliance"/>
+						<set_value name="md.$FactionData.{$Faction}.$Headquarters" exact="$Station" />
+						<create_representative_actor name="$Representative" station="$Station" faction="$Faction" />
+					</do_else>
+					<do_if value="$Representative">
+						<debug_text text="'Created ' + $Representative.name + ' ({' + $Representative + '}) as representive of ' + $Faction.name + ' on ' + md.$FactionData.{$Faction}.$Headquarters.knownname + ' ({' + md.$FactionData.{$Faction}.$Headquarters + '}) in ' + md.$FactionData.{$Faction}.$Headquarters.sector.knownname + ', ' + md.$FactionData.{$Faction}.$Headquarters.cluster.knownname" chance="$DebugChance" />
+						<set_value name="md.$FactionData.{$Faction}.$Representative" exact="$Representative" />
+						<do_if value="FactionRepresentativeKilled_Check.state" exact="cuestate.complete">
+							<reset_cue cue="FactionRepresentativeKilled_Check" />
+						</do_if>
+						<signal_cue_instantly cue="md.NPC_FactionRepresentative.FactionRepresentativeCreated" param="$Representative" />
+					</do_if>
+					<do_else>
+						<debug_text text="'Failed to create representative of ' + $Faction.name + ' on ' + md.$FactionData.{$Faction}.$Headquarters.knownname + ' ({' + md.$FactionData.{$Faction}.$Headquarters + '}) in ' + md.$FactionData.{$Faction}.$Headquarters.sector.knownname + ', ' + md.$FactionData.{$Faction}.$Headquarters.cluster.knownname" filter="error" />
+					</do_else>
+				</do_if>
+			</actions>
+		</cue>
+	</replace>
+
+	<!-- Trigger CreateNewFactionRepresentative if we don't find a HQ. We'll have a fallback here. -->
+	<add sel="//cue[@name='Find_Faction_Headquarters']/actions/do_else/do_if[@value='$PreferredSpace and $PreferredHQTypes.count']/do_else">
+		<signal_cue cue="CreateNewFactionRepresentative" />
+	</add>
+</diff>

@@ -1477,6 +1477,23 @@
     </station>
 	</add>
 
+	<!-- Add Vault of the Keepers to Venus -->
+	<!-- Has the faction representatives of all the displaced factions -->
+	<add sel="/god/stations">
+		<station id="xepo_gamestart_terran1_vault" race="terran" owner="alliance" name="Vault of the Keepers" type="factory">
+      <quotas>
+        <quota galaxy="1" zone="1" gamestart="xepo_gamestart_terran1" />
+      </quotas>
+      <location class="sector" macro="cluster_101_sector001_macro" />
+      <position x="50000" y="-100" z="60000" pitch="0" roll="0" yaw="0" />
+      <station constructionplan="'xepo_vault'">
+        <loadout>
+          <level exact="1.0" />
+        </loadout>
+      </station>
+    </station>
+	</add>
+
 	<!-- Add Xenon defensive station -->
 	<add sel="/god/stations">
 		<station id="xenpo_defence_cluster_113_sector001" race="xenon" owner="xenon" type="defence">

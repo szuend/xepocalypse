@@ -84,18 +84,19 @@ the races that have sought refuge on the planets of Sol."
         <factions>
 					<!-- We are +20 with all factions seeking refuge in Sol (to have access to all Blueprints) -->
           <relations>
-            <relation faction="terran" otherfaction="player"   relation="0.11"/>
-            <relation faction="pioneers" otherfaction="player" relation="0.11"/>
-            <relation faction="antigone" otherfaction="player" relation="0.11"/>
-            <relation faction="argon" otherfaction="player" relation="0.11"/>
-						<relation faction="boron" otherfaction="player" relation="0.11"/>
+						<relation faction="alliance" otherfaction="player"  relation="0.11"/>
+            <relation faction="antigone" otherfaction="player"  relation="0.11"/>
+            <relation faction="argon" otherfaction="player"     relation="0.11"/>
+						<relation faction="boron" otherfaction="player"     relation="0.11"/>
             <relation faction="freesplit" otherfaction="player" relation="0.11"/>
-            <relation faction="hatikvah" otherfaction="player" relation="0.11"/>
+            <relation faction="hatikvah" otherfaction="player"  relation="0.11"/>
             <relation faction="holyorder" otherfaction="player" relation="0.11"/>
-            <relation faction="ministry" otherfaction="player" relation="0.11"/>
-            <relation faction="paranid" otherfaction="player" relation="0.11"/>
-            <relation faction="split" otherfaction="player" relation="0.11"/>
-            <relation faction="teladi" otherfaction="player" relation="0.11"/>
+            <relation faction="ministry" otherfaction="player"  relation="0.11"/>
+            <relation faction="paranid" otherfaction="player"   relation="0.11"/>
+            <relation faction="pioneers" otherfaction="player"  relation="0.11"/>
+            <relation faction="split" otherfaction="player"     relation="0.11"/>
+            <relation faction="teladi" otherfaction="player"    relation="0.11"/>
+            <relation faction="terran" otherfaction="player"    relation="0.11"/>
           </relations>
         </factions>
       </universe>

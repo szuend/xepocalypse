@@ -14,6 +14,7 @@ of hours playtime without enough time for the player to get started.
 
 * Xenon own all sectors except all Sol sectors and Getsu Fune.
 * Added a new custom gamestart: Start on PHQ in Mars with the "Terran Cadet" ship.
+* Added a "Vault of the Keepers" station to Mars. It houses all the displaced faction representatives.
 
 ## Minor Changes
 
@@ -21,4 +22,4 @@ of hours playtime without enough time for the player to get started.
 * Disabled the gate from Neptung to Brennan's Triumph.
 * Each non-Sol sector has a Xenon Defense Platform at the start.
 * Removed all other game starts. They would start in sectors owned by Xenon.
-* The new custom game start starts with +20 to most factions. This is to unlock blueprints and help rebuild.
+* The new custom game start setsmost factions to +20. This is to unlock blueprints and help rebuild.
