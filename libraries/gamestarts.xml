@@ -16,13 +16,13 @@
 	<remove sel="/gamestarts/gamestart[@id='x4ep1_gamestart_scientist']"/>
 	<remove sel="/gamestarts/gamestart[@id='x4ep1_gamestart_boso']"/>
 
-	<add sel="/gamestarts">
+	<replace sel="/gamestarts/gamestart[@id='x4ep1_gamestart_terran1']">
 		<gamestart id="xepo_gamestart_terran1"
 		           name="Xepocalypse"
 							 description="The universe is already overrun by the Xenon.
 Only the Terran Protectorate is holding on. They shut down the gate from Neptun to
-Brennan's Triumph and built a last line of defense in Getsu Fune,
-hoping against all hope that they can	re-take the universe and help re-settle
+Brennan's Triumph and built a last line of defense in Getsu Fune.
+The Terrans hope against all hope that they can	re-take the universe and help re-settle
 the races that have sought refuge on the planets of Sol."
 							 image="gamestart_terran1"
 							 group="6">
@@ -105,20 +105,20 @@ the races that have sought refuge on the planets of Sol."
       </player>
 			<universe>
         <factions>
-					<!-- We are neutral with all factions seeking refuge in Sol -->
+					<!-- We are +20 with all factions seeking refuge in Sol (to have access to all Blueprints) -->
           <relations>
             <relation faction="terran" otherfaction="player"   relation="0.010001"/>
-            <relation faction="pioneers" otherfaction="player" relation="0.003201"/>
+            <relation faction="pioneers" otherfaction="player" relation="0.010001"/>
             <relation faction="antigone" otherfaction="player" relation="0.003201"/>
-            <relation faction="argon" otherfaction="player" relation="0.003201"/>
-						<relation faction="boron" otherfaction="player" relation="0.003201"/>
-            <relation faction="freesplit" otherfaction="player" relation="0.003201"/>
-            <relation faction="hatikvah" otherfaction="player" relation="0.003201"/>
-            <relation faction="holyorder" otherfaction="player" relation="0.003201"/>
-            <relation faction="ministry" otherfaction="player" relation="0.003201"/>
-            <relation faction="paranid" otherfaction="player" relation="0.003201"/>
-            <relation faction="split" otherfaction="player" relation="0.003201"/>
-            <relation faction="teladi" otherfaction="player" relation="0.003201"/>
+            <relation faction="argon" otherfaction="player" relation="0.010001"/>
+						<relation faction="boron" otherfaction="player" relation="0.010001"/>
+            <relation faction="freesplit" otherfaction="player" relation="0.010001"/>
+            <relation faction="hatikvah" otherfaction="player" relation="0.010001"/>
+            <relation faction="holyorder" otherfaction="player" relation="0.010001"/>
+            <relation faction="ministry" otherfaction="player" relation="0.010001"/>
+            <relation faction="paranid" otherfaction="player" relation="0.010001"/>
+            <relation faction="split" otherfaction="player" relation="0.010001"/>
+            <relation faction="teladi" otherfaction="player" relation="0.010001"/>
           </relations>
         </factions>
       </universe>
@@ -128,5 +128,5 @@ the races that have sought refuge on the planets of Sol."
         <item value="playername" state="standard" />
       </custom>
 		</gamestart>	
-	</add>
+	</replace>
 </diff>
