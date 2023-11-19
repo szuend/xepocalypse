@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<diff>
+	<!-- The game starts on the PHQ so we need to load the player ship in via MD -->
+	<add sel="/loadouts">
+		<loadout id="xepo_gamestart_terran1_nodan" description="" macro="ship_ter_s_fighter_01_a_macro">
+			<macros>
+				<engine macro="engine_ter_s_allround_01_mk2_macro" path="../con_engine_01"/>
+				<weapon macro="weapon_ter_s_laser_01_mk1_macro" path="../con_weapon_03"/>
+				<weapon macro="weapon_ter_s_laser_01_mk1_macro" path="../con_weapon_01"/>
+				<weapon macro="weapon_ter_s_laser_01_mk1_macro" path="../con_weapon_02"/>
+				<shield macro="shield_ter_s_standard_01_mk2_macro" path="../con_shield_01"/>
+				<!-- VRO -->
+				<shield macro="ishield_ter_s_fighter_01_a_macro" path="../con_ishield_01" optional="true" />
+			</macros>
+			<ammunition>
+				<ammunition macro="eq_arg_satellite_02_macro" exact="5"/>
+				<ammunition macro="env_deco_nav_beacon_t1_macro" exact="5"/>
+				<ammunition macro="eq_arg_satellite_01_macro" exact="5"/>
+				<ammunition macro="eq_arg_resourceprobe_01_macro" exact="5"/>
+			</ammunition>
+			<software>
+				<software ware="software_dockmk2"/>
+				<software ware="software_flightassistmk1"/>
+				<software ware="software_scannerlongrangemk2"/>
+				<software ware="software_scannerobjectmk1"/>
+				<software ware="software_targetmk1"/>
+			</software>
+			<virtualmacros>
+				<thruster macro="thruster_gen_s_allround_01_mk2_macro"/>
+			</virtualmacros>
+		</loadout>
+	</add>
+</diff>

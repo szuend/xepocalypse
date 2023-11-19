@@ -1013,7 +1013,7 @@
 	<add sel="/god/stations">
 		<station id="ter_defence_cluster_48_sector001_zone001" race="terran" owner="terran" type="factory">
       <quotas>
-        <quota galaxy="2" sector="2" zone="2" />
+        <quota galaxy="3" sector="3" zone="3" />
       </quotas>
       <location class="zone" macro="zone001_cluster_48_sector001_macro" matchextension="false" />
       <station>
@@ -1026,7 +1026,7 @@
     </station>
 		<station id="ter_defence_cluster_48_sector001_zone002" race="terran" owner="terran" type="factory">
       <quotas>
-        <quota galaxy="2" sector="2" zone="2" />
+        <quota galaxy="3" sector="3" zone="3" />
       </quotas>
       <location class="zone" macro="zone002_cluster_48_sector001_macro" matchextension="false" />
       <station>
@@ -1039,7 +1039,7 @@
     </station>
 		<station id="ter_defence_cluster_48_sector001_zone003" race="terran" owner="terran" type="factory">
       <quotas>
-        <quota galaxy="2" sector="2" zone="2" />
+        <quota galaxy="3" sector="3" zone="3" />
       </quotas>
       <location class="zone" macro="zone003_cluster_48_sector001_macro" matchextension="false" />
       <station>
@@ -1052,7 +1052,7 @@
     </station>
 		<station id="ter_defence_cluster_48_sector001_zone004" race="terran" owner="terran" type="factory">
       <quotas>
-        <quota galaxy="2" sector="2" zone="2" />
+        <quota galaxy="3" sector="3" zone="3" />
       </quotas>
       <location class="zone" macro="zone004_cluster_48_sector001_macro" matchextension="false" />
       <station>
@@ -1065,7 +1065,7 @@
     </station>
 		<station id="ter_defence_cluster_48_sector001_zone005" race="terran" owner="terran" type="factory">
       <quotas>
-        <quota galaxy="2" sector="2" zone="2" />
+        <quota galaxy="3" sector="3" zone="3" />
       </quotas>
       <location class="zone" macro="zone005_cluster_48_sector001_macro" matchextension="false" />
       <station>
@@ -1460,6 +1460,22 @@
 	<remove sel="/god/products/product[@id='pio_computronicsubstrate_oortcloud']"/>
 	<remove sel="/god/products/product[@id='pio_metallicmicrolattice_oortcloud']"/>
 	<remove sel="/god/products/product[@id='pio_siliconcarbide_oortcloud']"/>
+
+	<!-- Add Player HQ to Mars -->
+	<add sel="/god/stations">
+		<station id="xepo_gamestart_terran1_hq" race="terran" owner="player" type="headquarters" encyclopedia="true">
+      <quotas>
+        <quota galaxy="1" zone="1" gamestart="xepo_gamestart_terran1" />
+      </quotas>
+      <location class="sector" macro="cluster_101_sector001_macro" />
+      <position x="100000" y="-100" z="50000" pitch="0" roll="0" yaw="0" />
+      <station constructionplan="'x4ep1_playerheadquarters_with_dock'">
+        <loadout>
+          <level exact="0.2" />
+        </loadout>
+      </station>
+    </station>
+	</add>
 
 	<!-- Add Xenon defensive station -->
 	<add sel="/god/stations">

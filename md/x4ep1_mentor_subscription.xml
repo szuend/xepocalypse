@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<diff>
+	<!-- Patch the various places where 'x4ep1_gamestart_scientist' has special handling to also support our gamestart-->
+	<replace sel="/mdscript/cues/cue[@name='Start']/patch[@sinceversion='6']/do_if/@value">player.module == 'x4ep1_gamestart_scientist' or player.module == 'xepo_gamestart_terran1'</replace>
+	<replace sel="/mdscript/cues/cue[@name='Start']/patch[@sinceversion='10']/do_if/@value">player.module == 'x4ep1_gamestart_scientist' or player.module == 'xepo_gamestart_terran1'</replace>
+
+	<replace sel="/mdscript/cues/cue[@name='Start']/cues/cue[@name='Initialise']/actions/do_if/@value">player.module == 'x4ep1_gamestart_scientist' or $story_hq_boso or $story_hq_dal or player.module == 'xepo_gamestart_terran1'</replace>
+	<replace sel="/mdscript/cues/cue[@name='Start']/cues/cue[@name='Initialise']/actions/do_if/do_if/@value">player.module == 'x4ep1_gamestart_scientist' or player.module == 'xepo_gamestart_terran1'</replace>
+</diff>

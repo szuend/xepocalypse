@@ -5,7 +5,6 @@
 	<remove sel="/gamestarts/gamestart[@id='x4ep1_gamestart_boron2']"/>
 	<remove sel="/gamestarts/gamestart[@id='x4ep1_gamestart_pirate1']"/>
 	<remove sel="/gamestarts/gamestart[@id='x4ep1_gamestart_pirate2']"/>
-	<remove sel="/gamestarts/gamestart[@id='x4ep1_gamestart_terran1']"/>
 	<remove sel="/gamestarts/gamestart[@id='x4ep1_gamestart_terran2']"/>
 	<remove sel="/gamestarts/gamestart[@id='x4ep1_gamestart_split1']"/>
 	<remove sel="/gamestarts/gamestart[@id='x4ep1_gamestart_split2']"/>
@@ -31,7 +30,7 @@ the races that have sought refuge on the planets of Sol."
 				<!-- Name, Gender, Location, Starting Ship(,2)/Ships(,10), Cash, Property -->
 				<item name="@name" />
 				<item name="@player" />
-				<item name="{1021,9}"   value="{1021,51}" />
+				<item />
 				<item />
 				<item name="{1021,1}"   value="{1021,903}" />
 				<item />
@@ -40,36 +39,14 @@ the races that have sought refuge on the planets of Sol."
         <item name="{1021,5}"   value="{1021,41}" />
 			</info>
 			<type name="{1021,94}" description="{1021,95}" />
-			<location galaxy="xu_ep2_universe_macro" sector="cluster_101_sector001_macro">
-        <position x="100000" z="50000"/>
-        <rotation yaw="0.0" pitch="0.0" roll="0.0"/>
-      </location>
+			<location galaxy="xu_ep2_universe_macro" sector="cluster_101_sector001_macro" station="station_pla_headquarters_base_01_macro">
+				<player disembarked="true">
+					<position x="-0.05115" y="1.806" z="-2.541"/>
+					<rotation yaw="179.69951" pitch="-1.83378"/>
+				</player>
+				<interior module="landmarks_player_hq_01_research_macro" corridor="room_arg_corridor_01_macro" door="con_room_01" room="room_gen_boronoffice_01_macro" name="{20007,1171}" />
+			</location>
 			<player macro="character_player_terran_gamestart1_macro" money="15000" name="{1021,902}">
-        <ship macro="ship_ter_s_fighter_01_a_macro">
-          <loadout>
-            <macros>
-              <engine macro="engine_ter_s_allround_01_mk1_macro" path="../con_engine_01"/>
-              <weapon macro="weapon_ter_s_laser_01_mk1_macro" path="../con_weapon_03"/>
-              <weapon macro="weapon_ter_s_laser_01_mk1_macro" path="../con_weapon_01"/>
-              <weapon macro="weapon_ter_s_laser_01_mk1_macro" path="../con_weapon_02"/>
-              <shield macro="shield_ter_s_standard_01_mk2_macro" path="../con_shield_01"/>
-            </macros>
-            <ammunition>
-              <ammunition macro="env_deco_nav_beacon_t1_macro" exact="5"/>
-              <ammunition macro="eq_arg_satellite_01_macro" exact="5"/>
-              <ammunition macro="eq_arg_resourceprobe_01_macro" exact="5"/>
-            </ammunition>
-            <software>
-              <software ware="software_flightassistmk1"/>
-              <software ware="software_scannerlongrangemk1"/>
-              <software ware="software_scannerobjectmk1"/>
-              <software ware="software_targetmk1"/>
-            </software>
-            <virtualmacros>
-              <thruster macro="thruster_gen_s_allround_01_mk1_macro"/>
-            </virtualmacros>
-          </loadout>
-        </ship>
         <inventory>
           <ware ware="weapon_gen_spacesuit_repairlaser_01_mk1" amount="1" />
           <ware ware="software_scannerobjectmk3" amount="1" />
@@ -107,18 +84,18 @@ the races that have sought refuge on the planets of Sol."
         <factions>
 					<!-- We are +20 with all factions seeking refuge in Sol (to have access to all Blueprints) -->
           <relations>
-            <relation faction="terran" otherfaction="player"   relation="0.010001"/>
-            <relation faction="pioneers" otherfaction="player" relation="0.010001"/>
-            <relation faction="antigone" otherfaction="player" relation="0.003201"/>
-            <relation faction="argon" otherfaction="player" relation="0.010001"/>
-						<relation faction="boron" otherfaction="player" relation="0.010001"/>
-            <relation faction="freesplit" otherfaction="player" relation="0.010001"/>
-            <relation faction="hatikvah" otherfaction="player" relation="0.010001"/>
-            <relation faction="holyorder" otherfaction="player" relation="0.010001"/>
-            <relation faction="ministry" otherfaction="player" relation="0.010001"/>
-            <relation faction="paranid" otherfaction="player" relation="0.010001"/>
-            <relation faction="split" otherfaction="player" relation="0.010001"/>
-            <relation faction="teladi" otherfaction="player" relation="0.010001"/>
+            <relation faction="terran" otherfaction="player"   relation="0.11"/>
+            <relation faction="pioneers" otherfaction="player" relation="0.11"/>
+            <relation faction="antigone" otherfaction="player" relation="0.11"/>
+            <relation faction="argon" otherfaction="player" relation="0.11"/>
+						<relation faction="boron" otherfaction="player" relation="0.11"/>
+            <relation faction="freesplit" otherfaction="player" relation="0.11"/>
+            <relation faction="hatikvah" otherfaction="player" relation="0.11"/>
+            <relation faction="holyorder" otherfaction="player" relation="0.11"/>
+            <relation faction="ministry" otherfaction="player" relation="0.11"/>
+            <relation faction="paranid" otherfaction="player" relation="0.11"/>
+            <relation faction="split" otherfaction="player" relation="0.11"/>
+            <relation faction="teladi" otherfaction="player" relation="0.11"/>
           </relations>
         </factions>
       </universe>
