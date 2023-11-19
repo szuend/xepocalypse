@@ -24,6 +24,7 @@ of hours of playtime without enough time for the player to get started.
 * Each non-Sol sector has a Xenon Defense Platform at the start.
 * Removed all other game starts. They would start in sectors owned by Xenon.
 * The new custom game start setsmost factions to +20. This is to unlock blueprints and help rebuild.
+* Bumped resources in Asteriod Belt, Saturn and Oorth Cloud to fuel the war machine.
 
 ## Mod Compatibility
 

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<diff>
+	<!-- Bump resources in Asteroid Belt -->
+	<replace sel="/regions/region[@name='asteroidbelt_main']/resources/resource[@ware='ore']/@yield">high</replace>
+	<replace sel="/regions/region[@name='asteroidbelt_main']/resources/resource[@ware='silicon']/@yield">high</replace>
+	<replace sel="/regions/region[@name='asteroidbelt_main']/resources/resource[@ware='ice']/@yield">medium</replace>
+	<replace sel="/regions/region[@name='asteroidbelt_main']/resources/resource[@ware='hydrogen']/@yield">medhigh</replace>
+	<replace sel="/regions/region[@name='asteroidbelt_main']/resources/resource[@ware='helium']/@yield">high</replace>
+	<replace sel="/regions/region[@name='asteroidbelt_main']/resources/resource[@ware='methane']/@yield">high</replace>
+
+	<!-- Bump resources in Saturn just slightly -->
+	<replace sel="/regions/region[@name='saturn_field']/resources/resource[@ware='ore']/@yield">medium</replace>
+	<replace sel="/regions/region[@name='saturn_field']/resources/resource[@ware='silicon']/@yield">medium</replace>
+	<replace sel="/regions/region[@name='saturn_field']/resources/resource[@ware='ice']/@yield">medium</replace>
+	<replace sel="/regions/region[@name='saturn_field']/resources/resource[@ware='hydrogen']/@yield">medium</replace>
+	<replace sel="/regions/region[@name='saturn_field']/resources/resource[@ware='helium']/@yield">medium</replace>
+
+	<!-- Bump resources in Oort cloud -->
+	<replace sel="/regions/region[@name='oort_field']/resources/resource[@ware='ore']/@yield">high</replace>
+	<replace sel="/regions/region[@name='oort_field']/resources/resource[@ware='silicon']/@yield">high</replace>
+	<replace sel="/regions/region[@name='oort_field']/resources/resource[@ware='ice']/@yield">medium</replace>
+	<replace sel="/regions/region[@name='oort_field']/resources/resource[@ware='hydrogen']/@yield">high</replace>
+	<replace sel="/regions/region[@name='oort_field']/resources/resource[@ware='helium']/@yield">high</replace>
+	<replace sel="/regions/region[@name='oort_field']/resources/resource[@ware='methane']/@yield">high</replace>
+</diff>
