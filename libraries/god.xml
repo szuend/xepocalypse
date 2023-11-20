@@ -1446,20 +1446,6 @@
 	<remove sel="/god/products/product[@id='pio_proteinpaste']"/>
 	<remove sel="/god/products/product[@id='pio_terranmre']"/>
 	<remove sel="/god/products/product[@id='pio_stimulants']"/>
-	<remove sel="/god/products/product[@id='pio_terranmre_pluto']"/>
-	<remove sel="/god/products/product[@id='pio_metallicmicrolattice_pluto']"/>
-	<remove sel="/god/products/product[@id='pio_computronicsubstrate_pluto']"/>
-	<remove sel="/god/products/product[@id='pio_siliconcarbide_pluto']"/>
-	<remove sel="/god/products/product[@id='pio_medicalsupplies_pluto']"/>
-	<remove sel="/god/products/product[@id='pio_terranmre_neptune']"/>
-	<remove sel="/god/products/product[@id='pio_metallicmicrolattice_neptune']"/>
-	<remove sel="/god/products/product[@id='pio_computronicsubstrate_neptune']"/>
-	<remove sel="/god/products/product[@id='pio_siliconcarbide_neptune']"/>
-	<remove sel="/god/products/product[@id='pio_medicalsupplies_neptune']"/>
-	<remove sel="/god/products/product[@id='pio_proteinpaste_neptune']"/>
-	<remove sel="/god/products/product[@id='pio_computronicsubstrate_oortcloud']"/>
-	<remove sel="/god/products/product[@id='pio_metallicmicrolattice_oortcloud']"/>
-	<remove sel="/god/products/product[@id='pio_siliconcarbide_oortcloud']"/>
 
 	<!-- Add Player HQ to Mars -->
 	<add sel="/god/stations">
