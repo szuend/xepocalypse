@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <diff>
 	<!-- Enable debug logs -->
-	<replace sel="//library[@name='Manager']/params/param[@name='DebugChance']/@default">1</replace>
+	<!-- <replace sel="//library[@name='Manager']/params/param[@name='DebugChance']/@default">1</replace> -->
 
 	<!-- We replace the "CreateNewFactionRepresentative" with our own version: -->
 	<!-- It's nearly identical but we fall back to add the representative to the vault if -->
