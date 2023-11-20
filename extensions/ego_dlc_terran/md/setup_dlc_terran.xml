@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<diff>
+	<!-- Remove the prelude cutscene in Mars, since it doesn't fit that great story wise -->
+	<remove sel="//cue[@name='X4ep1_Prelude_Setup']"/>
+</diff>
