@@ -39,3 +39,9 @@ Personally, I have developed Xepocalypse with the following mods enabled:
 Mods that do the following may not work as intended:
 
   * Mods that add new sectors / factions. Xepocalypse will leave those alone as it does not know about them.
+
+## Changelog
+
+### v0.11
+
+  * Add Commonwealth "Scrap Recylcer" module blueprint (with Terran building materials) to PIO. This allows bootstrapping of Hull Parts and Claytronics with nothing but scrap.

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<diff>
+	<add sel="/wares/ware[@id='module_gen_prod_scrap_recycler']">
+		<production time="777" amount="1" method="terran" name="{20206,901}">
+			<primary>
+				<ware ware="computronicsubstrate" amount="99" />
+				<ware ware="energycells" amount="131" />
+				<ware ware="siliconcarbide" amount="21" />
+			</primary>
+		</production>
+		<owner faction="pioneers" />
+  </add>
+</diff>
