@@ -42,6 +42,10 @@ Mods that do the following may not work as intended:
 
 ## Changelog
 
+### v0.12
+
+  * Adjust relationship between factions to be neutral (0) at the worst. This is to prevent factions fighting in the limited available space.
+
 ### v0.11
 
   * Add Commonwealth "Scrap Recylcer" module blueprint (with Terran building materials) to PIO. This allows bootstrapping of Hull Parts and Claytronics with nothing but scrap.

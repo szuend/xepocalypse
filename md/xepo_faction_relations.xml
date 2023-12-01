@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<mdscript name="Xepo_Faction_Relations" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="md.xsd">
+	<cues>
+    <cue name="Init">
+			<conditions>
+        <event_cue_signalled cue="md.Setup.Start" />
+      </conditions>
+      <actions>
+        <set_value name="$DebugChance" exact="1"/>
+
+				<!-- Set all factions neutral with each other since they'll be bunched up in only a handfull of sectors -->
+				<!-- Normally this would be handled by `gamestarts.xml` but we want to support existing save games. -->
+
+				<set_value name="$Factions" exact="[faction.alliance, faction.antigone, faction.argon, faction.hatikvah, faction.holyorder, faction.ministry, faction.paranid, faction.pioneers, faction.teladi, faction.terran]"/>
+
+				<!-- Check for optional DLC factions -->
+				<do_if value="faction.boron">
+					<append_to_list name="$Factions" exact="faction.boron" />
+				</do_if>
+				<do_if value="faction.freesplit">
+					<append_to_list name="$Factions" exact="faction.freesplit" />
+				</do_if>
+				<do_if value="faction.split">
+					<append_to_list name="$Factions" exact="faction.split" />
+				</do_if>
+
+				<do_all exact="$Factions.count" counter="$i">
+					<do_all exact="$i" counter="$j">
+						<!-- Leave the relationship alone if it's already positive, bump it to 0 otherwise -->
+						<do_if value="$Factions.{$i}.relationto.{$Factions.{$j}} lt 0">
+							<set_faction_relation faction="$Factions.{$i}" otherfaction="$Factions.{$j}" value="0" />
+							<debug_text text="'Relation between ' + $Factions.{$i} + ' and ' + $Factions.{$j} + ' to ' + $Factions.{$i}.relation.{$Factions.{$i}.relationto.{$Factions.{$j}}}.uivalue"/>
+						</do_if>
+					</do_all>
+				</do_all>
+      </actions>
+		</cue>
+	</cues>
+</mdscript>
